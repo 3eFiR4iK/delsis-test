@@ -1,0 +1,214 @@
+[
+    {
+        "name": "user_2georvh7",
+        "title": "Детали сделки",
+        "type": "section",
+        "elements": [
+            {
+                "name": "PARENT_ID_175",
+                "title": "Проект",
+                "optionFlags": "1"
+            },
+            {
+                "name": "UF_CRM_1674752457",
+                "optionFlags": "0"
+            },
+            {
+                "name": "DATE_CREATE",
+                "optionFlags": "0"
+            },
+            {
+                "name": "OPPORTUNITY_WITH_CURRENCY",
+                "optionFlags": "1",
+                "options": {
+                    "isPayButtonVisible": "true"
+                }
+            },
+            {
+                "name": "UF_CRM_1660836605",
+                "optionFlags": "0"
+            },
+            {
+                "name": "UF_CRM_1694339477",
+                "optionFlags": "0"
+            }
+        ]
+    },
+    {
+        "name": "user_g93g3611",
+        "title": "Производство",
+        "type": "section",
+        "elements": [
+            {
+                "name": "UF_CRM_1626952896",
+                "optionFlags": "1"
+            },
+            {
+                "name": "UF_CRM_5D7BE8EB4CA95",
+                "optionFlags": "1"
+            },
+            {
+                "name": "UF_CRM_1675330660",
+                "optionFlags": "1"
+            },
+            {
+                "name": "UF_CRM_1675330695",
+                "optionFlags": "1"
+            },
+            {
+                "name": "UF_CRM_1574746458",
+                "optionFlags": "1"
+            },
+            {
+                "name": "UF_PROEKT",
+                "optionFlags": "1"
+            },
+            {
+                "name": "UF_CRM_1651817033770",
+                "optionFlags": "0"
+            },
+            {
+                "name": "UF_CRM_63EF843DECA73",
+                "optionFlags": "1"
+            }
+        ]
+    },
+    {
+        "name": "user_1r00dyu8",
+        "title": "Учет оплаты",
+        "type": "section",
+        "elements": [
+            {
+                "name": "UF_CRM_1660836488",
+                "optionFlags": "0"
+            },
+            {
+                "name": "UF_CRM_1623691800",
+                "optionFlags": "1"
+            },
+            {
+                "name": "UF_CRM_1671645355",
+                "optionFlags": "0"
+            },
+            {
+                "name": "UF_CRM_1671645420",
+                "optionFlags": "0"
+            },
+            {
+                "name": "UF_CRM_63EF843CB0EA2",
+                "optionFlags": "1"
+            }
+        ]
+    },
+    {
+        "name": "user_jrj5hfi3",
+        "title": "Финансовый результат",
+        "type": "section",
+        "elements": [
+            {
+                "name": "UF_CRM_1593582849",
+                "optionFlags": "0"
+            },
+            {
+                "name": "PRODUCT_ROW_SUMMARY",
+                "optionFlags": "0"
+            }
+        ]
+    },
+    {
+        "name": "user_x7jf25yv",
+        "title": "Клиент",
+        "type": "section",
+        "elements": [
+            {
+                "name": "UF_CRM_640877E9ADE22",
+                "optionFlags": "1"
+            },
+            {
+                "name": "CLIENT",
+                "optionFlags": "1",
+                "options": {
+                    "defaultCountry": "RU"
+                }
+            }
+        ]
+    },
+    {
+        "name": "user_9qvpiszh",
+        "title": "Последние коммуникации",
+        "type": "section",
+        "elements": [
+            {
+                "name": "UF_CRM_637C637C996F6",
+                "optionFlags": "0"
+            },
+            {
+                "name": "UF_CRM_5EEB764F769E5",
+                "optionFlags": "0"
+            },
+            {
+                "name": "UF_CRM_5EEB764F7E83A",
+                "optionFlags": "0"
+            },
+            {
+                "name": "UF_CRM_5EEB764F866F5",
+                "optionFlags": "0"
+            },
+            {
+                "name": "UF_CRM_5EEB764F8CFCD",
+                "optionFlags": "0"
+            }
+        ]
+    },
+    {
+        "name": "user_i6btpxdd",
+        "title": "Дополнительно",
+        "type": "section",
+        "elements": [
+            {
+                "name": "UF_CRM_1678748013234",
+                "optionFlags": "0"
+            },
+            {
+                "name": "SOURCE_ID",
+                "optionFlags": "1"
+            },
+            {
+                "name": "TRACKING_SOURCE_ID",
+                "optionFlags": "0"
+            },
+            {
+                "name": "UF_CRM_614AF0DF95003",
+                "optionFlags": "1"
+            },
+            {
+                "name": "UF_CRM_1640932148",
+                "optionFlags": "0"
+            },
+            {
+                "name": "SOURCE_DESCRIPTION",
+                "optionFlags": "1"
+            },
+            {
+                "name": "ASSIGNED_BY_ID",
+                "optionFlags": "0"
+            },
+            {
+                "name": "UF_CRM_614AF0DFB9C33",
+                "optionFlags": "0"
+            },
+            {
+                "name": "UF_CRM_1667939187",
+                "optionFlags": "1"
+            },
+            {
+                "name": "UF_CRM_1680542681",
+                "optionFlags": "1"
+            },
+            {
+                "name": "UF_CRM_1693896062066",
+                "optionFlags": "1"
+            }
+        ]
+    }
+]

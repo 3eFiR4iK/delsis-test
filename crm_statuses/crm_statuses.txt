@@ -1,0 +1,5090 @@
+{
+    "DEAL_STATE": [
+        {
+            "ID": "117",
+            "ENTITY_ID": "DEAL_STATE",
+            "STATUS_ID": "PLANNED",
+            "NAME": "В планах",
+            "NAME_INIT": "",
+            "SORT": "10",
+            "SYSTEM": "N",
+            "CATEGORY_ID": null,
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "119",
+            "ENTITY_ID": "DEAL_STATE",
+            "STATUS_ID": "PROCESS",
+            "NAME": "В работе",
+            "NAME_INIT": "В работе",
+            "SORT": "20",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": null,
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "121",
+            "ENTITY_ID": "DEAL_STATE",
+            "STATUS_ID": "COMPLETE",
+            "NAME": "Выполнена",
+            "NAME_INIT": "Выполнена",
+            "SORT": "30",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": null,
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "123",
+            "ENTITY_ID": "DEAL_STATE",
+            "STATUS_ID": "CANCELED",
+            "NAME": "Отменена",
+            "NAME_INIT": "Отменена",
+            "SORT": "40",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": null,
+            "COLOR": null,
+            "SEMANTICS": null
+        }
+    ],
+    "STATUS": [
+        {
+            "ID": "763",
+            "ENTITY_ID": "STATUS",
+            "STATUS_ID": "NEW",
+            "NAME": "Новый лид",
+            "NAME_INIT": "Не обработан",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "0",
+            "COLOR": "#f6989c",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#f6989c"
+            }
+        },
+        {
+            "ID": "1449",
+            "ENTITY_ID": "STATUS",
+            "STATUS_ID": "UC_Q53C2E",
+            "NAME": "1 Касание",
+            "NAME_INIT": "",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#aae9fc",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#aae9fc"
+            }
+        },
+        {
+            "ID": "1459",
+            "ENTITY_ID": "STATUS",
+            "STATUS_ID": "UC_N0VNS5",
+            "NAME": "2 Касание",
+            "NAME_INIT": "",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#98e1dc",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#98e1dc"
+            }
+        },
+        {
+            "ID": "1460",
+            "ENTITY_ID": "STATUS",
+            "STATUS_ID": "UC_K3Y78R",
+            "NAME": "3 Касание",
+            "NAME_INIT": "",
+            "SORT": "40",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#67cef9",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#67cef9"
+            }
+        },
+        {
+            "ID": "1443",
+            "ENTITY_ID": "STATUS",
+            "STATUS_ID": "UC_1F86GB",
+            "NAME": "Встреча запланирована",
+            "NAME_INIT": "",
+            "SORT": "50",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#ffa801",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#ffa801"
+            }
+        },
+        {
+            "ID": "1445",
+            "ENTITY_ID": "STATUS",
+            "STATUS_ID": "UC_KAVHI9",
+            "NAME": "Встреча проведена",
+            "NAME_INIT": "",
+            "SORT": "60",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#a3d49b",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#a3d49b"
+            }
+        },
+        {
+            "ID": "1447",
+            "ENTITY_ID": "STATUS",
+            "STATUS_ID": "UC_ZN4Z81",
+            "NAME": "КП отправлено",
+            "NAME_INIT": "",
+            "SORT": "70",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#7bc56f",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#7bc56f"
+            }
+        },
+        {
+            "ID": "1532",
+            "ENTITY_ID": "STATUS",
+            "STATUS_ID": "UC_0RI4XN",
+            "NAME": "КП Презентовано",
+            "NAME_INIT": "",
+            "SORT": "80",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#2fb644",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#2fb644"
+            }
+        },
+        {
+            "ID": "1607",
+            "ENTITY_ID": "STATUS",
+            "STATUS_ID": "UC_2WQLGA",
+            "NAME": "Старт проекта",
+            "NAME_INIT": "",
+            "SORT": "90",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#107c2c",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#107c2c"
+            }
+        },
+        {
+            "ID": "967",
+            "ENTITY_ID": "STATUS",
+            "STATUS_ID": "17",
+            "NAME": "РАЗОБРАТЬ",
+            "NAME_INIT": "",
+            "SORT": "100",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#aba100",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#aba100"
+            }
+        },
+        {
+            "ID": "1678",
+            "ENTITY_ID": "STATUS",
+            "STATUS_ID": "UC_8FB4MY",
+            "NAME": "Полезный контакт",
+            "NAME_INIT": "",
+            "SORT": "110",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#00a99d",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#00a99d"
+            }
+        },
+        {
+            "ID": "769",
+            "ENTITY_ID": "STATUS",
+            "STATUS_ID": "CONVERTED",
+            "NAME": "Качественный Лид",
+            "NAME_INIT": "Качественный лид",
+            "SORT": "120",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "0",
+            "COLOR": "#3E6617",
+            "SEMANTICS": "S",
+            "EXTRA": {
+                "SEMANTICS": "success",
+                "COLOR": "#3E6617"
+            }
+        },
+        {
+            "ID": "771",
+            "ENTITY_ID": "STATUS",
+            "STATUS_ID": "JUNK",
+            "NAME": "УСЛОВНЫЙ ОТКАЗ",
+            "NAME_INIT": "Некачественный лид",
+            "SORT": "130",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "0",
+            "COLOR": "#ff5752",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "failure",
+                "COLOR": "#ff5752"
+            }
+        },
+        {
+            "ID": "1512",
+            "ENTITY_ID": "STATUS",
+            "STATUS_ID": "18",
+            "NAME": "Отложенный спрос",
+            "NAME_INIT": "",
+            "SORT": "140",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#F7941D",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "apology",
+                "COLOR": "#F7941D"
+            }
+        },
+        {
+            "ID": "1534",
+            "ENTITY_ID": "STATUS",
+            "STATUS_ID": "19",
+            "NAME": "Не создавать лиды",
+            "NAME_INIT": "",
+            "SORT": "150",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#9D0039",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "apology",
+                "COLOR": "#9D0039"
+            }
+        }
+    ],
+    "CONTACT_TYPE": [
+        {
+            "ID": "797",
+            "ENTITY_ID": "CONTACT_TYPE",
+            "STATUS_ID": "CLIENT",
+            "NAME": "Клиенты",
+            "NAME_INIT": "",
+            "SORT": "10",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "799",
+            "ENTITY_ID": "CONTACT_TYPE",
+            "STATUS_ID": "SUPPLIER",
+            "NAME": "Поставщики",
+            "NAME_INIT": "",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "801",
+            "ENTITY_ID": "CONTACT_TYPE",
+            "STATUS_ID": "PARTNER",
+            "NAME": "Партнеры",
+            "NAME_INIT": "",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "803",
+            "ENTITY_ID": "CONTACT_TYPE",
+            "STATUS_ID": "OTHER",
+            "NAME": "Другое",
+            "NAME_INIT": "",
+            "SORT": "40",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "909",
+            "ENTITY_ID": "CONTACT_TYPE",
+            "STATUS_ID": "1",
+            "NAME": "Подрядчик",
+            "NAME_INIT": "",
+            "SORT": "50",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1333",
+            "ENTITY_ID": "CONTACT_TYPE",
+            "STATUS_ID": "UC_TDNB83",
+            "NAME": "Конкурент",
+            "NAME_INIT": "",
+            "SORT": "60",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1458",
+            "ENTITY_ID": "CONTACT_TYPE",
+            "STATUS_ID": "UC_AQLO5C",
+            "NAME": "Кондидат",
+            "NAME_INIT": "",
+            "SORT": "70",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        }
+    ],
+    "COMPANY_TYPE": [
+        {
+            "ID": "805",
+            "ENTITY_ID": "COMPANY_TYPE",
+            "STATUS_ID": "CUSTOMER",
+            "NAME": "Клиент",
+            "NAME_INIT": "",
+            "SORT": "10",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "807",
+            "ENTITY_ID": "COMPANY_TYPE",
+            "STATUS_ID": "SUPPLIER",
+            "NAME": "Поставщик",
+            "NAME_INIT": "",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "809",
+            "ENTITY_ID": "COMPANY_TYPE",
+            "STATUS_ID": "COMPETITOR",
+            "NAME": "Конкурент",
+            "NAME_INIT": "",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "811",
+            "ENTITY_ID": "COMPANY_TYPE",
+            "STATUS_ID": "PARTNER",
+            "NAME": "Партнер",
+            "NAME_INIT": "",
+            "SORT": "40",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "813",
+            "ENTITY_ID": "COMPANY_TYPE",
+            "STATUS_ID": "OTHER",
+            "NAME": "Другое",
+            "NAME_INIT": "",
+            "SORT": "50",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "907",
+            "ENTITY_ID": "COMPANY_TYPE",
+            "STATUS_ID": "1",
+            "NAME": "Подрядчик",
+            "NAME_INIT": "",
+            "SORT": "60",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1651",
+            "ENTITY_ID": "COMPANY_TYPE",
+            "STATUS_ID": "UC_CFR7J0",
+            "NAME": "Государственный огран",
+            "NAME_INIT": "",
+            "SORT": "70",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        }
+    ],
+    "EMPLOYEES": [
+        {
+            "ID": "815",
+            "ENTITY_ID": "EMPLOYEES",
+            "STATUS_ID": "EMPLOYEES_1",
+            "NAME": "менее 10",
+            "NAME_INIT": "менее 50",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1089",
+            "ENTITY_ID": "EMPLOYEES",
+            "STATUS_ID": "2",
+            "NAME": "10-25",
+            "NAME_INIT": "",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1091",
+            "ENTITY_ID": "EMPLOYEES",
+            "STATUS_ID": "3",
+            "NAME": "25-50",
+            "NAME_INIT": "",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "817",
+            "ENTITY_ID": "EMPLOYEES",
+            "STATUS_ID": "EMPLOYEES_2",
+            "NAME": "50-100",
+            "NAME_INIT": "",
+            "SORT": "40",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1015",
+            "ENTITY_ID": "EMPLOYEES",
+            "STATUS_ID": "1",
+            "NAME": "100-250",
+            "NAME_INIT": "",
+            "SORT": "50",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "819",
+            "ENTITY_ID": "EMPLOYEES",
+            "STATUS_ID": "EMPLOYEES_3",
+            "NAME": "250-500",
+            "NAME_INIT": "",
+            "SORT": "60",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "821",
+            "ENTITY_ID": "EMPLOYEES",
+            "STATUS_ID": "EMPLOYEES_4",
+            "NAME": "более 500",
+            "NAME_INIT": "",
+            "SORT": "70",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        }
+    ],
+    "DEAL_TYPE": [
+        {
+            "ID": "845",
+            "ENTITY_ID": "DEAL_TYPE",
+            "STATUS_ID": "SALE",
+            "NAME": "Продажа",
+            "NAME_INIT": "Продажа",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "847",
+            "ENTITY_ID": "DEAL_TYPE",
+            "STATUS_ID": "COMPLEX",
+            "NAME": "Комплексная продажа",
+            "NAME_INIT": "",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "849",
+            "ENTITY_ID": "DEAL_TYPE",
+            "STATUS_ID": "GOODS",
+            "NAME": "Продажа товара",
+            "NAME_INIT": "",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "851",
+            "ENTITY_ID": "DEAL_TYPE",
+            "STATUS_ID": "SERVICES",
+            "NAME": "Продажа услуги",
+            "NAME_INIT": "",
+            "SORT": "40",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "853",
+            "ENTITY_ID": "DEAL_TYPE",
+            "STATUS_ID": "SERVICE",
+            "NAME": "Сервисное обслуживание",
+            "NAME_INIT": "",
+            "SORT": "50",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        }
+    ],
+    "QUOTE_STATUS": [
+        {
+            "ID": "879",
+            "ENTITY_ID": "QUOTE_STATUS",
+            "STATUS_ID": "DRAFT",
+            "NAME": "Новое КП",
+            "NAME_INIT": "Новое",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "0",
+            "COLOR": "#39A8EF",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#39A8EF"
+            }
+        },
+        {
+            "ID": "881",
+            "ENTITY_ID": "QUOTE_STATUS",
+            "STATUS_ID": "SENT",
+            "NAME": "КП Отправлено клиенту",
+            "NAME_INIT": "",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#2FC6F6",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#2FC6F6"
+            }
+        },
+        {
+            "ID": "1658",
+            "ENTITY_ID": "QUOTE_STATUS",
+            "STATUS_ID": "1",
+            "NAME": "КП Прочитано",
+            "NAME_INIT": "",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#55D0E0",
+            "SEMANTICS": "",
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#55D0E0"
+            }
+        },
+        {
+            "ID": "1659",
+            "ENTITY_ID": "QUOTE_STATUS",
+            "STATUS_ID": "2",
+            "NAME": "КП Защищено",
+            "NAME_INIT": "",
+            "SORT": "40",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#47E4C2",
+            "SEMANTICS": "",
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#47E4C2"
+            }
+        },
+        {
+            "ID": "883",
+            "ENTITY_ID": "QUOTE_STATUS",
+            "STATUS_ID": "APPROVED",
+            "NAME": "Стартуем проект",
+            "NAME_INIT": "Принято",
+            "SORT": "50",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "0",
+            "COLOR": "#7BD500",
+            "SEMANTICS": "S",
+            "EXTRA": {
+                "SEMANTICS": "success",
+                "COLOR": "#7BD500"
+            }
+        },
+        {
+            "ID": "885",
+            "ENTITY_ID": "QUOTE_STATUS",
+            "STATUS_ID": "DECLAINED",
+            "NAME": "Условный отказ",
+            "NAME_INIT": "Отклонено",
+            "SORT": "60",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "0",
+            "COLOR": "#FF5752",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "failure",
+                "COLOR": "#FF5752"
+            }
+        }
+    ],
+    "HONORIFIC": [
+        {
+            "ID": "889",
+            "ENTITY_ID": "HONORIFIC",
+            "STATUS_ID": "HNR_RU_1",
+            "NAME": "г-н",
+            "NAME_INIT": "",
+            "SORT": "10",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "891",
+            "ENTITY_ID": "HONORIFIC",
+            "STATUS_ID": "HNR_RU_2",
+            "NAME": "г-жа",
+            "NAME_INIT": "",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        }
+    ],
+    "EVENT_TYPE": [
+        {
+            "ID": "893",
+            "ENTITY_ID": "EVENT_TYPE",
+            "STATUS_ID": "INFO",
+            "NAME": "Информация",
+            "NAME_INIT": "Информация",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "895",
+            "ENTITY_ID": "EVENT_TYPE",
+            "STATUS_ID": "PHONE",
+            "NAME": "Телефонный звонок",
+            "NAME_INIT": "Телефонный звонок",
+            "SORT": "20",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "897",
+            "ENTITY_ID": "EVENT_TYPE",
+            "STATUS_ID": "MESSAGE",
+            "NAME": "Отправлен email",
+            "NAME_INIT": "Отправлен email",
+            "SORT": "30",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        }
+    ],
+    "CALL_LIST": [
+        {
+            "ID": "899",
+            "ENTITY_ID": "CALL_LIST",
+            "STATUS_ID": "IN_WORK",
+            "NAME": "В работе",
+            "NAME_INIT": "В работе",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "901",
+            "ENTITY_ID": "CALL_LIST",
+            "STATUS_ID": "SUCCESS",
+            "NAME": "Успешно",
+            "NAME_INIT": "Успешно",
+            "SORT": "20",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "903",
+            "ENTITY_ID": "CALL_LIST",
+            "STATUS_ID": "WRONG_NUMBER",
+            "NAME": "Неверный номер",
+            "NAME_INIT": "Неверный номер",
+            "SORT": "30",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "905",
+            "ENTITY_ID": "CALL_LIST",
+            "STATUS_ID": "STOP_CALLING",
+            "NAME": "Больше не звонить",
+            "NAME_INIT": "Больше не звонить",
+            "SORT": "40",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        }
+    ],
+    "DEAL_STAGE": [
+        {
+            "ID": "911",
+            "ENTITY_ID": "DEAL_STAGE",
+            "STATUS_ID": "9",
+            "NAME": "Новый  проект",
+            "NAME_INIT": "",
+            "SORT": "10",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#e3f19e",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#e3f19e"
+            }
+        },
+        {
+            "ID": "1097",
+            "ENTITY_ID": "DEAL_STAGE",
+            "STATUS_ID": "19",
+            "NAME": "Документы подписаны",
+            "NAME_INIT": "",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#6ccff7",
+            "SEMANTICS": "",
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#6ccff7"
+            }
+        },
+        {
+            "ID": "1107",
+            "ENTITY_ID": "DEAL_STAGE",
+            "STATUS_ID": "21",
+            "NAME": "Аванс получен",
+            "NAME_INIT": "",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#0072bc",
+            "SEMANTICS": "",
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#0072bc"
+            }
+        },
+        {
+            "ID": "1527",
+            "ENTITY_ID": "DEAL_STAGE",
+            "STATUS_ID": "25",
+            "NAME": "Обследование и аналитика",
+            "NAME_INIT": "",
+            "SORT": "50",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#39A8EF",
+            "SEMANTICS": "",
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#39A8EF"
+            }
+        },
+        {
+            "ID": "1528",
+            "ENTITY_ID": "DEAL_STAGE",
+            "STATUS_ID": "26",
+            "NAME": "Проектные решения",
+            "NAME_INIT": "",
+            "SORT": "60",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#2FC6F6",
+            "SEMANTICS": "",
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#2FC6F6"
+            }
+        },
+        {
+            "ID": "917",
+            "ENTITY_ID": "DEAL_STAGE",
+            "STATUS_ID": "3",
+            "NAME": "Разработка/настройка",
+            "NAME_INIT": "",
+            "SORT": "70",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#004a80",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#004a80"
+            }
+        },
+        {
+            "ID": "1529",
+            "ENTITY_ID": "DEAL_STAGE",
+            "STATUS_ID": "27",
+            "NAME": "Пуск/отладка",
+            "NAME_INIT": "",
+            "SORT": "80",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#55D0E0",
+            "SEMANTICS": "",
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#55D0E0"
+            }
+        },
+        {
+            "ID": "863",
+            "ENTITY_ID": "DEAL_STAGE",
+            "STATUS_ID": "NEW",
+            "NAME": "ОПЭ",
+            "NAME_INIT": "Новая",
+            "SORT": "90",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "0",
+            "COLOR": "#7dc473",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#7dc473"
+            }
+        },
+        {
+            "ID": "1369",
+            "ENTITY_ID": "DEAL_STAGE",
+            "STATUS_ID": "24",
+            "NAME": "Акт отправлен",
+            "NAME_INIT": "",
+            "SORT": "100",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#FBAF5A",
+            "SEMANTICS": "",
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#FBAF5A"
+            }
+        },
+        {
+            "ID": "873",
+            "ENTITY_ID": "DEAL_STAGE",
+            "STATUS_ID": "WON",
+            "NAME": "Оплата и Акт получены",
+            "NAME_INIT": "Сделка успешна",
+            "SORT": "110",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "0",
+            "COLOR": "#7bd500",
+            "SEMANTICS": "S",
+            "EXTRA": {
+                "SEMANTICS": "success",
+                "COLOR": "#7bd500"
+            }
+        },
+        {
+            "ID": "875",
+            "ENTITY_ID": "DEAL_STAGE",
+            "STATUS_ID": "LOSE",
+            "NAME": "Отказ: Отложили проект",
+            "NAME_INIT": "Сделка провалена",
+            "SORT": "120",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "0",
+            "COLOR": "#ff5752",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "failure",
+                "COLOR": "#ff5752"
+            }
+        },
+        {
+            "ID": "1219",
+            "ENTITY_ID": "DEAL_STAGE",
+            "STATUS_ID": "22",
+            "NAME": "Отказ: Нет необходимости",
+            "NAME_INIT": "",
+            "SORT": "130",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#ff5752",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "apology",
+                "COLOR": "#ff5752"
+            }
+        },
+        {
+            "ID": "877",
+            "ENTITY_ID": "DEAL_STAGE",
+            "STATUS_ID": "APOLOGY",
+            "NAME": "Отказ: Нет оплаты, нет обратной связи",
+            "NAME_INIT": "",
+            "SORT": "140",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#ff5752",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "apology",
+                "COLOR": "#ff5752"
+            }
+        },
+        {
+            "ID": "921",
+            "ENTITY_ID": "DEAL_STAGE",
+            "STATUS_ID": "10",
+            "NAME": "Отказ: Не согласовали договор или условия",
+            "NAME_INIT": "",
+            "SORT": "150",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#ff5752",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "apology",
+                "COLOR": "#ff5752"
+            }
+        },
+        {
+            "ID": "923",
+            "ENTITY_ID": "DEAL_STAGE",
+            "STATUS_ID": "11",
+            "NAME": "Отказ: нет обратной связи",
+            "NAME_INIT": "",
+            "SORT": "160",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#ff5752",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "apology",
+                "COLOR": "#ff5752"
+            }
+        },
+        {
+            "ID": "925",
+            "ENTITY_ID": "DEAL_STAGE",
+            "STATUS_ID": "12",
+            "NAME": "Отказ: иная причина",
+            "NAME_INIT": "",
+            "SORT": "170",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#ff5752",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "apology",
+                "COLOR": "#ff5752"
+            }
+        }
+    ],
+    "DEAL_STAGE_7": [
+        {
+            "ID": "927",
+            "ENTITY_ID": "DEAL_STAGE_7",
+            "STATUS_ID": "C7:NEW",
+            "NAME": "Новая",
+            "NAME_INIT": "Новая",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "7",
+            "COLOR": "#39a8ef",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#39a8ef"
+            }
+        },
+        {
+            "ID": "1401",
+            "ENTITY_ID": "DEAL_STAGE_7",
+            "STATUS_ID": "C7:UC_8VN54I",
+            "NAME": "Счет частично оплачен",
+            "NAME_INIT": "",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "7",
+            "COLOR": "#00c4fb",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#00c4fb"
+            }
+        },
+        {
+            "ID": "931",
+            "ENTITY_ID": "DEAL_STAGE_7",
+            "STATUS_ID": "C7:PREPAYMENT_INVOICE",
+            "NAME": "В работе",
+            "NAME_INIT": "",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "7",
+            "COLOR": "#7DC473",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#7DC473"
+            }
+        },
+        {
+            "ID": "935",
+            "ENTITY_ID": "DEAL_STAGE_7",
+            "STATUS_ID": "C7:FINAL_INVOICE",
+            "NAME": "Акт отправлен",
+            "NAME_INIT": "",
+            "SORT": "40",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "7",
+            "COLOR": "#ffa900",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#ffa900"
+            }
+        },
+        {
+            "ID": "937",
+            "ENTITY_ID": "DEAL_STAGE_7",
+            "STATUS_ID": "C7:WON",
+            "NAME": "Сделка успешна",
+            "NAME_INIT": "Сделка успешна",
+            "SORT": "50",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "7",
+            "COLOR": "#7BD500",
+            "SEMANTICS": "S",
+            "EXTRA": {
+                "SEMANTICS": "success",
+                "COLOR": "#7BD500"
+            }
+        },
+        {
+            "ID": "939",
+            "ENTITY_ID": "DEAL_STAGE_7",
+            "STATUS_ID": "C7:LOSE",
+            "NAME": "Сделка провалена",
+            "NAME_INIT": "Сделка провалена",
+            "SORT": "60",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "7",
+            "COLOR": "#FF5752",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "failure",
+                "COLOR": "#FF5752"
+            }
+        },
+        {
+            "ID": "941",
+            "ENTITY_ID": "DEAL_STAGE_7",
+            "STATUS_ID": "C7:APOLOGY",
+            "NAME": "Анализ причины провала",
+            "NAME_INIT": "",
+            "SORT": "70",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "7",
+            "COLOR": "#FF5752",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "apology",
+                "COLOR": "#FF5752"
+            }
+        }
+    ],
+    "DEAL_STAGE_11": [
+        {
+            "ID": "1065",
+            "ENTITY_ID": "DEAL_STAGE_11",
+            "STATUS_ID": "C11:NEW",
+            "NAME": "Новая",
+            "NAME_INIT": "Новая",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "11",
+            "COLOR": "#fdad7e",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#fdad7e"
+            }
+        },
+        {
+            "ID": "1450",
+            "ENTITY_ID": "DEAL_STAGE_11",
+            "STATUS_ID": "C11:UC_KRPV6G",
+            "NAME": "Ожидает продление",
+            "NAME_INIT": "",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "11",
+            "COLOR": "#003172",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#003172"
+            }
+        },
+        {
+            "ID": "1451",
+            "ENTITY_ID": "DEAL_STAGE_11",
+            "STATUS_ID": "C11:UC_BW68ZI",
+            "NAME": "3 мес.",
+            "NAME_INIT": "",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "11",
+            "COLOR": "#865daa",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#865daa"
+            }
+        },
+        {
+            "ID": "1629",
+            "ENTITY_ID": "DEAL_STAGE_11",
+            "STATUS_ID": "C11:UC_MEYOY6",
+            "NAME": "2 мес.",
+            "NAME_INIT": "",
+            "SORT": "40",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "11",
+            "COLOR": "#5471b9",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#5471b9"
+            }
+        },
+        {
+            "ID": "1452",
+            "ENTITY_ID": "DEAL_STAGE_11",
+            "STATUS_ID": "C11:UC_3XSP1S",
+            "NAME": "1 мес.",
+            "NAME_INIT": "",
+            "SORT": "50",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "11",
+            "COLOR": "#a284bf",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#a284bf"
+            }
+        },
+        {
+            "ID": "1453",
+            "ENTITY_ID": "DEAL_STAGE_11",
+            "STATUS_ID": "C11:UC_KMTTWC",
+            "NAME": "2 недели",
+            "NAME_INIT": "",
+            "SORT": "60",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "11",
+            "COLOR": "#ebebeb",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#ebebeb"
+            }
+        },
+        {
+            "ID": "1067",
+            "ENTITY_ID": "DEAL_STAGE_11",
+            "STATUS_ID": "C11:PREPARATION",
+            "NAME": "Счет отправлен",
+            "NAME_INIT": "",
+            "SORT": "70",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "11",
+            "COLOR": "#fec788",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#fec788"
+            }
+        },
+        {
+            "ID": "1363",
+            "ENTITY_ID": "DEAL_STAGE_11",
+            "STATUS_ID": "C11:1",
+            "NAME": "Счет оплачен",
+            "NAME_INIT": "",
+            "SORT": "80",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "11",
+            "COLOR": "#00A650",
+            "SEMANTICS": "",
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#00A650"
+            }
+        },
+        {
+            "ID": "1365",
+            "ENTITY_ID": "DEAL_STAGE_11",
+            "STATUS_ID": "C11:2",
+            "NAME": "Накладная отправлена",
+            "NAME_INIT": "",
+            "SORT": "90",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "11",
+            "COLOR": "#f36509",
+            "SEMANTICS": "",
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#f36509"
+            }
+        },
+        {
+            "ID": "1075",
+            "ENTITY_ID": "DEAL_STAGE_11",
+            "STATUS_ID": "C11:WON",
+            "NAME": "УСПЕХ",
+            "NAME_INIT": "Сделка успешна",
+            "SORT": "100",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "11",
+            "COLOR": "#7bd500",
+            "SEMANTICS": "S",
+            "EXTRA": {
+                "SEMANTICS": "success",
+                "COLOR": "#7bd500"
+            }
+        },
+        {
+            "ID": "1077",
+            "ENTITY_ID": "DEAL_STAGE_11",
+            "STATUS_ID": "C11:LOSE",
+            "NAME": "УСЛОВНЫЙ ОТКАЗ",
+            "NAME_INIT": "Сделка провалена",
+            "SORT": "110",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "11",
+            "COLOR": "#FF5752",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "failure",
+                "COLOR": "#FF5752"
+            }
+        }
+    ],
+    "INDUSTRY": [
+        {
+            "ID": "1127",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "24",
+            "NAME": "Выставить нужное",
+            "NAME_INIT": "",
+            "SORT": "10",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "823",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "IT",
+            "NAME": "Топливная компания",
+            "NAME_INIT": "",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "827",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "MANUFACTURING",
+            "NAME": "Типография",
+            "NAME_INIT": "",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "959",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "1",
+            "NAME": "Рыбная компания",
+            "NAME_INIT": "",
+            "SORT": "40",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "839",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "ENTERTAINMENT",
+            "NAME": "Продажа цветов",
+            "NAME_INIT": "",
+            "SORT": "50",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1023",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "2",
+            "NAME": "Мебельное производство",
+            "NAME_INIT": "",
+            "SORT": "60",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1025",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "3",
+            "NAME": "Доставка воды",
+            "NAME_INIT": "",
+            "SORT": "70",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1027",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "4",
+            "NAME": "Информационная компания",
+            "NAME_INIT": "",
+            "SORT": "80",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1029",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "5",
+            "NAME": "Продажа Софта, ПК и комплектующих",
+            "NAME_INIT": "",
+            "SORT": "90",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1031",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "6",
+            "NAME": "Продажа авто запчастей",
+            "NAME_INIT": "",
+            "SORT": "100",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1033",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "7",
+            "NAME": "Продажа запчастей для сельхоз техники",
+            "NAME_INIT": "",
+            "SORT": "110",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "843",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "OTHER",
+            "NAME": "Медицина",
+            "NAME_INIT": "Другое",
+            "SORT": "120",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1035",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "10",
+            "NAME": "СТО",
+            "NAME_INIT": "",
+            "SORT": "130",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1037",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "8",
+            "NAME": "Поставки удобрений",
+            "NAME_INIT": "",
+            "SORT": "140",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1039",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "9",
+            "NAME": "Строительная компания",
+            "NAME_INIT": "",
+            "SORT": "150",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1047",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "13",
+            "NAME": "Юридическая компания",
+            "NAME_INIT": "",
+            "SORT": "160",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1041",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "11",
+            "NAME": "Продажа дверей",
+            "NAME_INIT": "",
+            "SORT": "170",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1043",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "12",
+            "NAME": "Продажа светотехники",
+            "NAME_INIT": "",
+            "SORT": "180",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1049",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "14",
+            "NAME": "Дистрибьюторская компания",
+            "NAME_INIT": "",
+            "SORT": "190",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1083",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "15",
+            "NAME": "Установка видеонаблюдения и.т.д.",
+            "NAME_INIT": "",
+            "SORT": "200",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1085",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "16",
+            "NAME": "Химическое производство (краски, химические добавки)",
+            "NAME_INIT": "",
+            "SORT": "210",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1087",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "17",
+            "NAME": "Деревообработка",
+            "NAME_INIT": "",
+            "SORT": "220",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1101",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "18",
+            "NAME": "Производство окон и дверей из ПВХ",
+            "NAME_INIT": "",
+            "SORT": "230",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1103",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "19",
+            "NAME": "Грузоперевозки",
+            "NAME_INIT": "",
+            "SORT": "240",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1111",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "20",
+            "NAME": "Ландшафтный дизайн и.т.д.",
+            "NAME_INIT": "",
+            "SORT": "250",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1113",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "21",
+            "NAME": "Переработка пластика",
+            "NAME_INIT": "",
+            "SORT": "260",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1117",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "22",
+            "NAME": "Аренда спецтехники",
+            "NAME_INIT": "",
+            "SORT": "270",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1121",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "23",
+            "NAME": "Маркетинговое агентство",
+            "NAME_INIT": "",
+            "SORT": "280",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1129",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "25",
+            "NAME": "Онлайн образование",
+            "NAME_INIT": "",
+            "SORT": "290",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1135",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "26",
+            "NAME": "Продажа строительных материалов",
+            "NAME_INIT": "",
+            "SORT": "300",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1145",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "27",
+            "NAME": "Продажа металлопроката",
+            "NAME_INIT": "",
+            "SORT": "310",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1169",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "28",
+            "NAME": "Продажа спортивных товаров",
+            "NAME_INIT": "",
+            "SORT": "320",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1171",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "29",
+            "NAME": "Курьерская служба",
+            "NAME_INIT": "",
+            "SORT": "330",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1209",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "30",
+            "NAME": "Рулонные шторы",
+            "NAME_INIT": "",
+            "SORT": "340",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1211",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "31",
+            "NAME": "Продажа складской техники и запчастей к ней",
+            "NAME_INIT": "",
+            "SORT": "350",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1217",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "UC_Z25E8Z",
+            "NAME": "Карьер",
+            "NAME_INIT": "",
+            "SORT": "360",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1227",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "32",
+            "NAME": "Деятельность связанна с СХ (производство сырья или продуктов)",
+            "NAME_INIT": "",
+            "SORT": "370",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1329",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "UC_8MATSJ",
+            "NAME": "Продажа удобрений, семян для СХ",
+            "NAME_INIT": "",
+            "SORT": "380",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1337",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "UC_V3Q5TA",
+            "NAME": "Ивент агенство",
+            "NAME_INIT": "",
+            "SORT": "390",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1391",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "UC_ZBSV7U",
+            "NAME": "Агенство Недвижимости",
+            "NAME_INIT": "",
+            "SORT": "400",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1393",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "UC_ZLP949",
+            "NAME": "Клининговая компания",
+            "NAME_INIT": "",
+            "SORT": "410",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1399",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "UC_2DT85P",
+            "NAME": "Производство изделий из металла",
+            "NAME_INIT": "",
+            "SORT": "420",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1427",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "UC_ZVYAKS",
+            "NAME": "Производство оборудывания",
+            "NAME_INIT": "",
+            "SORT": "430",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1433",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "UC_2ECC63",
+            "NAME": "Детелинг",
+            "NAME_INIT": "",
+            "SORT": "440",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1435",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "UC_J3S91S",
+            "NAME": "Охранно-сыскное агенство",
+            "NAME_INIT": "",
+            "SORT": "450",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1554",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "UC_CBPLAE",
+            "NAME": "Оптово-розничная торговля",
+            "NAME_INIT": "",
+            "SORT": "460",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1555",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "UC_YKMMR6",
+            "NAME": "Общепит",
+            "NAME_INIT": "",
+            "SORT": "470",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1606",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "UC_HJWKRE",
+            "NAME": "Розничная торговля",
+            "NAME_INIT": "",
+            "SORT": "480",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1644",
+            "ENTITY_ID": "INDUSTRY",
+            "STATUS_ID": "UC_J2EY5U",
+            "NAME": "Производство одежды",
+            "NAME_INIT": "",
+            "SORT": "490",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        }
+    ],
+    "SOURCE": [
+        {
+            "ID": "1131",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "10",
+            "NAME": "Выбрать источник",
+            "NAME_INIT": "",
+            "SORT": "10",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1679",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "REDHAMPLUGIN",
+            "NAME": "Универсальный парсер",
+            "NAME_INIT": "",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1437",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "UC_VBMJWN",
+            "NAME": "РОБ24",
+            "NAME_INIT": "",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "961",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "1",
+            "NAME": "Холодный Звонок",
+            "NAME_INIT": "",
+            "SORT": "40",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "773",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "CALL",
+            "NAME": "Звонок на Мобильный",
+            "NAME_INIT": "Звонок",
+            "SORT": "50",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1317",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "15",
+            "NAME": "Звонок на Городской",
+            "NAME_INIT": "",
+            "SORT": "60",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "777",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "WEB",
+            "NAME": "Веб-сайт",
+            "NAME_INIT": "",
+            "SORT": "70",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "781",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "PARTNER",
+            "NAME": "Рекомендация",
+            "NAME_INIT": "",
+            "SORT": "80",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "787",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "WEBFORM",
+            "NAME": "CRM-форма",
+            "NAME_INIT": "CRM-форма",
+            "SORT": "90",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "789",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "CALLBACK",
+            "NAME": "Обратный звонок",
+            "NAME_INIT": "Обратный звонок",
+            "SORT": "100",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "791",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "RC_GENERATOR",
+            "NAME": "Генератор продаж",
+            "NAME_INIT": "Генератор продаж",
+            "SORT": "110",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1462",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "1|OPENLINE",
+            "NAME": "Онлайн-чат - Сайт логистов",
+            "NAME_INIT": "",
+            "SORT": "120",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1533",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "7|WZ_WHATSAPP_C89DF72C02E6FA40E1B233CC077204855",
+            "NAME": "WAZZUP: WhatsApp - WhatsApp (Wazzap)",
+            "NAME_INIT": "",
+            "SORT": "130",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1515",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "16|BITRIX24",
+            "NAME": "Битрикс24.Network - Техническая поддержка Delsi",
+            "NAME_INIT": "",
+            "SORT": "140",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1115",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "8",
+            "NAME": "Выставка",
+            "NAME_INIT": "",
+            "SORT": "150",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "793",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "STORE",
+            "NAME": "Интернет-магазин",
+            "NAME_INIT": "Интернет-магазин",
+            "SORT": "160",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1119",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "1|FBINSTAGRAMDIRECT",
+            "NAME": "Instagram Direct - Открытая линия",
+            "NAME_INIT": "",
+            "SORT": "170",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1007",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "B24_APPLICATION",
+            "NAME": "Заявка из приложения",
+            "NAME_INIT": "",
+            "SORT": "180",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "775",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "EMAIL",
+            "NAME": "E-mail (инфо)",
+            "NAME_INIT": "",
+            "SORT": "190",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1011",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "2",
+            "NAME": "E-mail Карманов",
+            "NAME_INIT": "",
+            "SORT": "200",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1525",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "20",
+            "NAME": "E-mail Ломакин",
+            "NAME_INIT": "",
+            "SORT": "210",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1013",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "3",
+            "NAME": "E-mail (гугл)",
+            "NAME_INIT": "",
+            "SORT": "220",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1017",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "4",
+            "NAME": "E-mail (заказ Битрикс 24)",
+            "NAME_INIT": "",
+            "SORT": "230",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1123",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "9",
+            "NAME": "Whatsapp 89184554373",
+            "NAME_INIT": "",
+            "SORT": "240",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1045",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "5",
+            "NAME": "Авито",
+            "NAME_INIT": "",
+            "SORT": "250",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1357",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "16",
+            "NAME": "Профи.ру",
+            "NAME_INIT": "",
+            "SORT": "260",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1293",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "9|TELEGRAM",
+            "NAME": "Telegram",
+            "NAME_INIT": "",
+            "SORT": "270",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1095",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "7",
+            "NAME": "Facebook",
+            "NAME_INIT": "",
+            "SORT": "280",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1133",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "11",
+            "NAME": "Рассылка в Telegram",
+            "NAME_INIT": "",
+            "SORT": "290",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1229",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "13",
+            "NAME": "Рассылка в WhatsApp",
+            "NAME_INIT": "",
+            "SORT": "300",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1371",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "17",
+            "NAME": "Личные знакомства",
+            "NAME_INIT": "",
+            "SORT": "310",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1373",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "18",
+            "NAME": "Конференции",
+            "NAME_INIT": "",
+            "SORT": "320",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1375",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "19",
+            "NAME": "Курсы/обучение",
+            "NAME_INIT": "",
+            "SORT": "330",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1377",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "UC_TMBB90",
+            "NAME": "Бизнес Лагерь",
+            "NAME_INIT": "",
+            "SORT": "340",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1429",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "UC_77VQ8V",
+            "NAME": "Партнерская сделка",
+            "NAME_INIT": "",
+            "SORT": "350",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1524",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "UC_IKMLQB",
+            "NAME": "Яндекс услуги",
+            "NAME_INIT": "",
+            "SORT": "360",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1295",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "14",
+            "NAME": "Лид от Вендора (архив)",
+            "NAME_INIT": "",
+            "SORT": "370",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1535",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "UC_W5S425",
+            "NAME": "Купленная база",
+            "NAME_INIT": "",
+            "SORT": "380",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1600",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "21",
+            "NAME": "ТЕСТ",
+            "NAME_INIT": "",
+            "SORT": "390",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1608",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "UC_UBEJWJ",
+            "NAME": "Сайт Битрикс24 (список партнеров)",
+            "NAME_INIT": "",
+            "SORT": "400",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1609",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "UC_CCJVVR",
+            "NAME": "HH",
+            "NAME_INIT": "",
+            "SORT": "410",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1635",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "UC_U7ISMP",
+            "NAME": "Совместная продажа (бонус)",
+            "NAME_INIT": "",
+            "SORT": "420",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1636",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "22",
+            "NAME": "АРНАТ",
+            "NAME_INIT": "",
+            "SORT": "430",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#D3EEF9",
+            "SEMANTICS": ""
+        },
+        {
+            "ID": "1680",
+            "ENTITY_ID": "SOURCE",
+            "STATUS_ID": "UC_8GITQS",
+            "NAME": "Работа.ру",
+            "NAME_INIT": "",
+            "SORT": "440",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": null,
+            "SEMANTICS": null
+        }
+    ],
+    "SMART_INVOICE_STAGE_1": [
+        {
+            "ID": "1137",
+            "ENTITY_ID": "SMART_INVOICE_STAGE_1",
+            "STATUS_ID": "DT31_1:N",
+            "NAME": "Новый",
+            "NAME_INIT": "Новый",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "1",
+            "COLOR": "#39A8EF",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1139",
+            "ENTITY_ID": "SMART_INVOICE_STAGE_1",
+            "STATUS_ID": "DT31_1:S",
+            "NAME": "Отправлен клиенту",
+            "NAME_INIT": "Отправлен клиенту",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "1",
+            "COLOR": "#2FC6F6",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1335",
+            "ENTITY_ID": "SMART_INVOICE_STAGE_1",
+            "STATUS_ID": "DT31_1:UC_5LI3KF",
+            "NAME": "Частично оплачен",
+            "NAME_INIT": "",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "1",
+            "COLOR": "#00c4fb",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1461",
+            "ENTITY_ID": "SMART_INVOICE_STAGE_1",
+            "STATUS_ID": "DT31_1:UC_PRCRAM",
+            "NAME": "Оплачено",
+            "NAME_INIT": "",
+            "SORT": "40",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "1",
+            "COLOR": "#47d1e2",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1141",
+            "ENTITY_ID": "SMART_INVOICE_STAGE_1",
+            "STATUS_ID": "DT31_1:P",
+            "NAME": "Оплачен",
+            "NAME_INIT": "Оплачен",
+            "SORT": "50",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "1",
+            "COLOR": "#7BD500",
+            "SEMANTICS": "S"
+        },
+        {
+            "ID": "1143",
+            "ENTITY_ID": "SMART_INVOICE_STAGE_1",
+            "STATUS_ID": "DT31_1:D",
+            "NAME": "Не оплачен",
+            "NAME_INIT": "Не оплачен",
+            "SORT": "60",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "1",
+            "COLOR": "#FF5752",
+            "SEMANTICS": "F"
+        }
+    ],
+    "DEAL_STAGE_13": [
+        {
+            "ID": "1147",
+            "ENTITY_ID": "DEAL_STAGE_13",
+            "STATUS_ID": "C13:NEW",
+            "NAME": "Новая",
+            "NAME_INIT": "Новая",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "13",
+            "COLOR": "#39A8EF",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#39A8EF"
+            }
+        },
+        {
+            "ID": "1149",
+            "ENTITY_ID": "DEAL_STAGE_13",
+            "STATUS_ID": "C13:PREPARATION",
+            "NAME": "В работе",
+            "NAME_INIT": "",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "13",
+            "COLOR": "#04b4ab",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#04b4ab"
+            }
+        },
+        {
+            "ID": "1157",
+            "ENTITY_ID": "DEAL_STAGE_13",
+            "STATUS_ID": "C13:WON",
+            "NAME": "Сделка успешна",
+            "NAME_INIT": "Сделка успешна",
+            "SORT": "30",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "13",
+            "COLOR": "#7BD500",
+            "SEMANTICS": "S",
+            "EXTRA": {
+                "SEMANTICS": "success",
+                "COLOR": "#7BD500"
+            }
+        },
+        {
+            "ID": "1159",
+            "ENTITY_ID": "DEAL_STAGE_13",
+            "STATUS_ID": "C13:LOSE",
+            "NAME": "Отказ",
+            "NAME_INIT": "Сделка провалена",
+            "SORT": "40",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "13",
+            "COLOR": "#ff5752",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "failure",
+                "COLOR": "#ff5752"
+            }
+        },
+        {
+            "ID": "1265",
+            "ENTITY_ID": "DEAL_STAGE_13",
+            "STATUS_ID": "C13:6",
+            "NAME": "Создание сайта",
+            "NAME_INIT": "",
+            "SORT": "50",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "13",
+            "COLOR": "#FFA801",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "apology",
+                "COLOR": "#FFA801"
+            }
+        }
+    ],
+    "DEAL_STAGE_15": [
+        {
+            "ID": "1177",
+            "ENTITY_ID": "DEAL_STAGE_15",
+            "STATUS_ID": "C15:NEW",
+            "NAME": "Новая регистрация",
+            "NAME_INIT": "Новая",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "15",
+            "COLOR": "#39a8ef",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#39a8ef"
+            }
+        },
+        {
+            "ID": "1179",
+            "ENTITY_ID": "DEAL_STAGE_15",
+            "STATUS_ID": "C15:PREPARATION",
+            "NAME": "Участие подтверждено",
+            "NAME_INIT": "",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "15",
+            "COLOR": "#2fc6f6",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#2fc6f6"
+            }
+        },
+        {
+            "ID": "1681",
+            "ENTITY_ID": "DEAL_STAGE_15",
+            "STATUS_ID": "C15:UC_7RBYCK",
+            "NAME": "З дня до начала",
+            "NAME_INIT": "",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "15",
+            "COLOR": "#00c4fb",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#00c4fb"
+            }
+        },
+        {
+            "ID": "1181",
+            "ENTITY_ID": "DEAL_STAGE_15",
+            "STATUS_ID": "C15:PREPAYMENT_INVOIC",
+            "NAME": "1 днь до начала",
+            "NAME_INIT": "",
+            "SORT": "40",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "15",
+            "COLOR": "#55d0e0",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#55d0e0"
+            }
+        },
+        {
+            "ID": "1682",
+            "ENTITY_ID": "DEAL_STAGE_15",
+            "STATUS_ID": "C15:UC_ZJ6BWO",
+            "NAME": "День вебенара",
+            "NAME_INIT": "",
+            "SORT": "50",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "15",
+            "COLOR": "#47d1e2",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#47d1e2"
+            }
+        },
+        {
+            "ID": "1183",
+            "ENTITY_ID": "DEAL_STAGE_15",
+            "STATUS_ID": "C15:EXECUTING",
+            "NAME": "Бронь получена",
+            "NAME_INIT": "",
+            "SORT": "60",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "15",
+            "COLOR": "#47e4c2",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#47e4c2"
+            }
+        },
+        {
+            "ID": "1187",
+            "ENTITY_ID": "DEAL_STAGE_15",
+            "STATUS_ID": "C15:WON",
+            "NAME": "Сделка успешна",
+            "NAME_INIT": "Сделка успешна",
+            "SORT": "80",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "15",
+            "COLOR": "#7BD500",
+            "SEMANTICS": "S",
+            "EXTRA": {
+                "SEMANTICS": "success",
+                "COLOR": "#7BD500"
+            }
+        },
+        {
+            "ID": "1189",
+            "ENTITY_ID": "DEAL_STAGE_15",
+            "STATUS_ID": "C15:LOSE",
+            "NAME": "Сделка провалена",
+            "NAME_INIT": "Сделка провалена",
+            "SORT": "90",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "15",
+            "COLOR": "#FF5752",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "failure",
+                "COLOR": "#FF5752"
+            }
+        },
+        {
+            "ID": "1191",
+            "ENTITY_ID": "DEAL_STAGE_15",
+            "STATUS_ID": "C15:APOLOGY",
+            "NAME": "Анализ причины провала",
+            "NAME_INIT": "",
+            "SORT": "100",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "15",
+            "COLOR": "#FF5752",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "apology",
+                "COLOR": "#FF5752"
+            }
+        }
+    ],
+    "DEAL_STAGE_17": [
+        {
+            "ID": "1193",
+            "ENTITY_ID": "DEAL_STAGE_17",
+            "STATUS_ID": "C17:NEW",
+            "NAME": "Новый аудит",
+            "NAME_INIT": "Новая",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "17",
+            "COLOR": "#39a8ef",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#39a8ef"
+            }
+        },
+        {
+            "ID": "1454",
+            "ENTITY_ID": "DEAL_STAGE_17",
+            "STATUS_ID": "C17:3",
+            "NAME": "Договор отправлен",
+            "NAME_INIT": "",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "17",
+            "COLOR": "#39A8EF",
+            "SEMANTICS": "",
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#39A8EF"
+            }
+        },
+        {
+            "ID": "1315",
+            "ENTITY_ID": "DEAL_STAGE_17",
+            "STATUS_ID": "C17:UC_ZQ23DH",
+            "NAME": "Счет оплачен",
+            "NAME_INIT": "",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "17",
+            "COLOR": "#ace9fb",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#ace9fb"
+            }
+        },
+        {
+            "ID": "1195",
+            "ENTITY_ID": "DEAL_STAGE_17",
+            "STATUS_ID": "C17:PREPARATION",
+            "NAME": "Интервью",
+            "NAME_INIT": "",
+            "SORT": "50",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "17",
+            "COLOR": "#2fc6f6",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#2fc6f6"
+            }
+        },
+        {
+            "ID": "1456",
+            "ENTITY_ID": "DEAL_STAGE_17",
+            "STATUS_ID": "C17:5",
+            "NAME": "Бизнес-процессы описаны",
+            "NAME_INIT": "",
+            "SORT": "60",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "17",
+            "COLOR": "#55D0E0",
+            "SEMANTICS": "",
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#55D0E0"
+            }
+        },
+        {
+            "ID": "1457",
+            "ENTITY_ID": "DEAL_STAGE_17",
+            "STATUS_ID": "C17:6",
+            "NAME": "ТЗ составлено",
+            "NAME_INIT": "",
+            "SORT": "70",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "17",
+            "COLOR": "#47E4C2",
+            "SEMANTICS": "",
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#47E4C2"
+            }
+        },
+        {
+            "ID": "1359",
+            "ENTITY_ID": "DEAL_STAGE_17",
+            "STATUS_ID": "C17:1",
+            "NAME": "ТЗ согласовано",
+            "NAME_INIT": "",
+            "SORT": "80",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "17",
+            "COLOR": "#37B44A",
+            "SEMANTICS": "",
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#37B44A"
+            }
+        },
+        {
+            "ID": "1361",
+            "ENTITY_ID": "DEAL_STAGE_17",
+            "STATUS_ID": "C17:2",
+            "NAME": "Акт отправлен",
+            "NAME_INIT": "",
+            "SORT": "90",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "17",
+            "COLOR": "#FFA801",
+            "SEMANTICS": "",
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#FFA801"
+            }
+        },
+        {
+            "ID": "1203",
+            "ENTITY_ID": "DEAL_STAGE_17",
+            "STATUS_ID": "C17:WON",
+            "NAME": "Оплата и Акт получены",
+            "NAME_INIT": "Сделка успешна",
+            "SORT": "100",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "17",
+            "COLOR": "#7BD500",
+            "SEMANTICS": "S",
+            "EXTRA": {
+                "SEMANTICS": "success",
+                "COLOR": "#7BD500"
+            }
+        },
+        {
+            "ID": "1205",
+            "ENTITY_ID": "DEAL_STAGE_17",
+            "STATUS_ID": "C17:LOSE",
+            "NAME": "УСЛОВНЫЙ ОТКАЗ",
+            "NAME_INIT": "Сделка провалена",
+            "SORT": "110",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "17",
+            "COLOR": "#FF5752",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "failure",
+                "COLOR": "#FF5752"
+            }
+        }
+    ],
+    "DEAL_STAGE_25": [
+        {
+            "ID": "1297",
+            "ENTITY_ID": "DEAL_STAGE_25",
+            "STATUS_ID": "C25:NEW",
+            "NAME": "Новая",
+            "NAME_INIT": "Новая",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "25",
+            "COLOR": "#39A8EF",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#39A8EF"
+            }
+        },
+        {
+            "ID": "1299",
+            "ENTITY_ID": "DEAL_STAGE_25",
+            "STATUS_ID": "C25:PREPARATION",
+            "NAME": "1 касание",
+            "NAME_INIT": "",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "25",
+            "COLOR": "#2fc6f6",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#2fc6f6"
+            }
+        },
+        {
+            "ID": "1301",
+            "ENTITY_ID": "DEAL_STAGE_25",
+            "STATUS_ID": "C25:PREPAYMENT_INVOIC",
+            "NAME": "2 касание",
+            "NAME_INIT": "",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "25",
+            "COLOR": "#55d0e0",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#55d0e0"
+            }
+        },
+        {
+            "ID": "1303",
+            "ENTITY_ID": "DEAL_STAGE_25",
+            "STATUS_ID": "C25:EXECUTING",
+            "NAME": "3 касание",
+            "NAME_INIT": "",
+            "SORT": "40",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "25",
+            "COLOR": "#47e4c2",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#47e4c2"
+            }
+        },
+        {
+            "ID": "1305",
+            "ENTITY_ID": "DEAL_STAGE_25",
+            "STATUS_ID": "C25:FINAL_INVOICE",
+            "NAME": "4 касание",
+            "NAME_INIT": "",
+            "SORT": "50",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "25",
+            "COLOR": "#fff893",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#fff893"
+            }
+        },
+        {
+            "ID": "1319",
+            "ENTITY_ID": "DEAL_STAGE_25",
+            "STATUS_ID": "C25:UC_2OP1UX",
+            "NAME": "5 касание",
+            "NAME_INIT": "",
+            "SORT": "60",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "25",
+            "COLOR": "#eec200",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#eec200"
+            }
+        },
+        {
+            "ID": "1321",
+            "ENTITY_ID": "DEAL_STAGE_25",
+            "STATUS_ID": "C25:UC_YZAG6K",
+            "NAME": "6 касание",
+            "NAME_INIT": "",
+            "SORT": "70",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "25",
+            "COLOR": "#ffa801",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#ffa801"
+            }
+        },
+        {
+            "ID": "1323",
+            "ENTITY_ID": "DEAL_STAGE_25",
+            "STATUS_ID": "C25:UC_BUEVZM",
+            "NAME": "7 касание",
+            "NAME_INIT": "",
+            "SORT": "80",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "25",
+            "COLOR": "#fdb051",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#fdb051"
+            }
+        },
+        {
+            "ID": "1307",
+            "ENTITY_ID": "DEAL_STAGE_25",
+            "STATUS_ID": "C25:WON",
+            "NAME": "Сделка успешна",
+            "NAME_INIT": "Сделка успешна",
+            "SORT": "90",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "25",
+            "COLOR": "#7BD500",
+            "SEMANTICS": "S",
+            "EXTRA": {
+                "SEMANTICS": "success",
+                "COLOR": "#7BD500"
+            }
+        },
+        {
+            "ID": "1309",
+            "ENTITY_ID": "DEAL_STAGE_25",
+            "STATUS_ID": "C25:LOSE",
+            "NAME": "Отказ",
+            "NAME_INIT": "Сделка провалена",
+            "SORT": "100",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "25",
+            "COLOR": "#ff5752",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "failure",
+                "COLOR": "#ff5752"
+            }
+        },
+        {
+            "ID": "1311",
+            "ENTITY_ID": "DEAL_STAGE_25",
+            "STATUS_ID": "C25:APOLOGY",
+            "NAME": "Другая причина",
+            "NAME_INIT": "",
+            "SORT": "110",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "25",
+            "COLOR": "#ff5752",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "apology",
+                "COLOR": "#ff5752"
+            }
+        }
+    ],
+    "SMART_DOCUMENT_STAGE_3": [
+        {
+            "ID": "1381",
+            "ENTITY_ID": "SMART_DOCUMENT_STAGE_3",
+            "STATUS_ID": "DT36_3:DRAFT",
+            "NAME": "Черновик",
+            "NAME_INIT": "Черновик",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "3",
+            "COLOR": "#00A9F4",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1383",
+            "ENTITY_ID": "SMART_DOCUMENT_STAGE_3",
+            "STATUS_ID": "DT36_3:PROCESSING",
+            "NAME": "На согласовании",
+            "NAME_INIT": "На согласовании",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "3",
+            "COLOR": "#00C9FA",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1385",
+            "ENTITY_ID": "SMART_DOCUMENT_STAGE_3",
+            "STATUS_ID": "DT36_3:SENT",
+            "NAME": "Отправлен",
+            "NAME_INIT": "Отправлен",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "3",
+            "COLOR": "#00D3E2",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1403",
+            "ENTITY_ID": "SMART_DOCUMENT_STAGE_3",
+            "STATUS_ID": "DT36_3:SEMISIGNED",
+            "NAME": "Частично подписан",
+            "NAME_INIT": "Частично подписан",
+            "SORT": "40",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "3",
+            "COLOR": "#FEA300",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1387",
+            "ENTITY_ID": "SMART_DOCUMENT_STAGE_3",
+            "STATUS_ID": "DT36_3:SIGNED",
+            "NAME": "Полностью подписан",
+            "NAME_INIT": "Полностью подписан",
+            "SORT": "50",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "3",
+            "COLOR": "#47E4C2",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1405",
+            "ENTITY_ID": "SMART_DOCUMENT_STAGE_3",
+            "STATUS_ID": "DT36_3:ARCHIVE",
+            "NAME": "В архив",
+            "NAME_INIT": "В архив",
+            "SORT": "60",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "3",
+            "COLOR": "#7BD500",
+            "SEMANTICS": "S"
+        },
+        {
+            "ID": "1389",
+            "ENTITY_ID": "SMART_DOCUMENT_STAGE_3",
+            "STATUS_ID": "DT36_3:NOTSIGNED",
+            "NAME": "Не подписано",
+            "NAME_INIT": "Не подписано",
+            "SORT": "70",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "3",
+            "COLOR": "#FF5752",
+            "SEMANTICS": "F"
+        }
+    ],
+    "DEAL_STAGE_27": [
+        {
+            "ID": "1407",
+            "ENTITY_ID": "DEAL_STAGE_27",
+            "STATUS_ID": "C27:NEW",
+            "NAME": "Новый инцидент",
+            "NAME_INIT": "Новая",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "27",
+            "COLOR": "#39a8ef",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#39a8ef"
+            }
+        },
+        {
+            "ID": "1409",
+            "ENTITY_ID": "DEAL_STAGE_27",
+            "STATUS_ID": "C27:PREPARATION",
+            "NAME": "Взят в работу",
+            "NAME_INIT": "",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "27",
+            "COLOR": "#2fc6f6",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#2fc6f6"
+            }
+        },
+        {
+            "ID": "1423",
+            "ENTITY_ID": "DEAL_STAGE_27",
+            "STATUS_ID": "C27:UC_PHU273",
+            "NAME": "Проверка выполнена",
+            "NAME_INIT": "",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "27",
+            "COLOR": "#00c4fb",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#00c4fb"
+            }
+        },
+        {
+            "ID": "1411",
+            "ENTITY_ID": "DEAL_STAGE_27",
+            "STATUS_ID": "C27:PREPAYMENT_INVOIC",
+            "NAME": "На контроле у руководителя",
+            "NAME_INIT": "",
+            "SORT": "40",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "27",
+            "COLOR": "#55d0e0",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#55d0e0"
+            }
+        },
+        {
+            "ID": "1417",
+            "ENTITY_ID": "DEAL_STAGE_27",
+            "STATUS_ID": "C27:WON",
+            "NAME": "Проиграно",
+            "NAME_INIT": "Сделка успешна",
+            "SORT": "50",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "27",
+            "COLOR": "#c4baed",
+            "SEMANTICS": "S",
+            "EXTRA": {
+                "SEMANTICS": "success",
+                "COLOR": "#c4baed"
+            }
+        },
+        {
+            "ID": "1419",
+            "ENTITY_ID": "DEAL_STAGE_27",
+            "STATUS_ID": "C27:LOSE",
+            "NAME": "Правомерно забракован",
+            "NAME_INIT": "Сделка провалена",
+            "SORT": "60",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "27",
+            "COLOR": "#ff5752",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "failure",
+                "COLOR": "#ff5752"
+            }
+        }
+    ],
+    "DEAL_STAGE_28": [
+        {
+            "ID": "1496",
+            "ENTITY_ID": "DEAL_STAGE_28",
+            "STATUS_ID": "C28:NEW",
+            "NAME": "Новый кандидат",
+            "NAME_INIT": "Новая",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "28",
+            "COLOR": "#39A8EF",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#39A8EF"
+            }
+        },
+        {
+            "ID": "1672",
+            "ENTITY_ID": "DEAL_STAGE_28",
+            "STATUS_ID": "C28:UC_HHW9ZI",
+            "NAME": "Запрос кандидату отправлен",
+            "NAME_INIT": "",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "28",
+            "COLOR": "#00c4fb",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#00c4fb"
+            }
+        },
+        {
+            "ID": "1497",
+            "ENTITY_ID": "DEAL_STAGE_28",
+            "STATUS_ID": "C28:PREPARATION",
+            "NAME": "Приглашен на собеседование",
+            "NAME_INIT": "",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "28",
+            "COLOR": "#2FC6F6",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#2FC6F6"
+            }
+        },
+        {
+            "ID": "1499",
+            "ENTITY_ID": "DEAL_STAGE_28",
+            "STATUS_ID": "C28:EXECUTING",
+            "NAME": "Прошел собеседование",
+            "NAME_INIT": "",
+            "SORT": "40",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "28",
+            "COLOR": "#47e4c2",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#47e4c2"
+            }
+        },
+        {
+            "ID": "1670",
+            "ENTITY_ID": "DEAL_STAGE_28",
+            "STATUS_ID": "C28:UC_692X4M",
+            "NAME": "Кандидат утвержден",
+            "NAME_INIT": "",
+            "SORT": "50",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "28",
+            "COLOR": "#007333",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#007333"
+            }
+        },
+        {
+            "ID": "1505",
+            "ENTITY_ID": "DEAL_STAGE_28",
+            "STATUS_ID": "C28:2",
+            "NAME": "Направлен на стажировку",
+            "NAME_INIT": "",
+            "SORT": "60",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "28",
+            "COLOR": "#2FC7F7",
+            "SEMANTICS": "",
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#2FC7F7"
+            }
+        },
+        {
+            "ID": "1506",
+            "ENTITY_ID": "DEAL_STAGE_28",
+            "STATUS_ID": "C28:3",
+            "NAME": "Стажировка пройдена",
+            "NAME_INIT": "",
+            "SORT": "70",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "28",
+            "COLOR": "#00FF00",
+            "SEMANTICS": "",
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#00FF00"
+            }
+        },
+        {
+            "ID": "1501",
+            "ENTITY_ID": "DEAL_STAGE_28",
+            "STATUS_ID": "C28:WON",
+            "NAME": "Подписан трудовой договор",
+            "NAME_INIT": "Сделка успешна",
+            "SORT": "80",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "28",
+            "COLOR": "#7BD500",
+            "SEMANTICS": "S",
+            "EXTRA": {
+                "SEMANTICS": "success",
+                "COLOR": "#7BD500"
+            }
+        },
+        {
+            "ID": "1502",
+            "ENTITY_ID": "DEAL_STAGE_28",
+            "STATUS_ID": "C28:LOSE",
+            "NAME": "Сразу отказ",
+            "NAME_INIT": "Сделка провалена",
+            "SORT": "90",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "28",
+            "COLOR": "#FF5752",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "failure",
+                "COLOR": "#FF5752"
+            }
+        },
+        {
+            "ID": "1610",
+            "ENTITY_ID": "DEAL_STAGE_28",
+            "STATUS_ID": "C28:7",
+            "NAME": "Не пришел на встречу",
+            "NAME_INIT": "",
+            "SORT": "100",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "28",
+            "COLOR": "#FF5752",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "apology",
+                "COLOR": "#FF5752"
+            }
+        },
+        {
+            "ID": "1503",
+            "ENTITY_ID": "DEAL_STAGE_28",
+            "STATUS_ID": "C28:APOLOGY",
+            "NAME": "Не прошел первичное собеседование",
+            "NAME_INIT": "",
+            "SORT": "110",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "28",
+            "COLOR": "#FF5752",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "apology",
+                "COLOR": "#FF5752"
+            }
+        },
+        {
+            "ID": "1507",
+            "ENTITY_ID": "DEAL_STAGE_28",
+            "STATUS_ID": "C28:4",
+            "NAME": "Не прошел собеседование с РП",
+            "NAME_INIT": "",
+            "SORT": "120",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "28",
+            "COLOR": "#FF5752",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "apology",
+                "COLOR": "#FF5752"
+            }
+        },
+        {
+            "ID": "1508",
+            "ENTITY_ID": "DEAL_STAGE_28",
+            "STATUS_ID": "C28:5",
+            "NAME": "Не прошел СБ",
+            "NAME_INIT": "",
+            "SORT": "130",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "28",
+            "COLOR": "#FF5752",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "apology",
+                "COLOR": "#FF5752"
+            }
+        },
+        {
+            "ID": "1509",
+            "ENTITY_ID": "DEAL_STAGE_28",
+            "STATUS_ID": "C28:6",
+            "NAME": "Не прошел стажировку",
+            "NAME_INIT": "",
+            "SORT": "140",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "28",
+            "COLOR": "#FF5752",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "apology",
+                "COLOR": "#FF5752"
+            }
+        },
+        {
+            "ID": "1671",
+            "ENTITY_ID": "DEAL_STAGE_28",
+            "STATUS_ID": "C28:8",
+            "NAME": "Нам октазали",
+            "NAME_INIT": "",
+            "SORT": "150",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "28",
+            "COLOR": "#9D0039",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "apology",
+                "COLOR": "#9D0039"
+            }
+        }
+    ],
+    "DEAL_STAGE_29": [
+        {
+            "ID": "1516",
+            "ENTITY_ID": "DEAL_STAGE_29",
+            "STATUS_ID": "C29:NEW",
+            "NAME": "НОВЫЙ ТИКЕТ",
+            "NAME_INIT": "Новая",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "29",
+            "COLOR": "#39a8ef",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#39a8ef"
+            }
+        },
+        {
+            "ID": "1517",
+            "ENTITY_ID": "DEAL_STAGE_29",
+            "STATUS_ID": "C29:PREPARATION",
+            "NAME": "ТИКЕТ КВАЛИФИЦИРОВАН",
+            "NAME_INIT": "",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "29",
+            "COLOR": "#2fc6f6",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#2fc6f6"
+            }
+        },
+        {
+            "ID": "1518",
+            "ENTITY_ID": "DEAL_STAGE_29",
+            "STATUS_ID": "C29:PREPAYMENT_INVOIC",
+            "NAME": "ПЕРЕДАНО НА 2 ЛИНИЮ",
+            "NAME_INIT": "",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "29",
+            "COLOR": "#55d0e0",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#55d0e0"
+            }
+        },
+        {
+            "ID": "1519",
+            "ENTITY_ID": "DEAL_STAGE_29",
+            "STATUS_ID": "C29:EXECUTING",
+            "NAME": "ОТВЕТ ОТ ВЕНДЕРА ПОЛУЧЕН",
+            "NAME_INIT": "",
+            "SORT": "40",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "29",
+            "COLOR": "#47e4c2",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#47e4c2"
+            }
+        },
+        {
+            "ID": "1520",
+            "ENTITY_ID": "DEAL_STAGE_29",
+            "STATUS_ID": "C29:FINAL_INVOICE",
+            "NAME": "РЕШЕНИЕ НАЙДЕНО",
+            "NAME_INIT": "",
+            "SORT": "50",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "29",
+            "COLOR": "#ffa900",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#ffa900"
+            }
+        },
+        {
+            "ID": "1521",
+            "ENTITY_ID": "DEAL_STAGE_29",
+            "STATUS_ID": "C29:WON",
+            "NAME": "Сделка успешна",
+            "NAME_INIT": "Сделка успешна",
+            "SORT": "60",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "29",
+            "COLOR": "#7BD500",
+            "SEMANTICS": "S",
+            "EXTRA": {
+                "SEMANTICS": "success",
+                "COLOR": "#7BD500"
+            }
+        },
+        {
+            "ID": "1522",
+            "ENTITY_ID": "DEAL_STAGE_29",
+            "STATUS_ID": "C29:LOSE",
+            "NAME": "Сделка провалена",
+            "NAME_INIT": "Сделка провалена",
+            "SORT": "70",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "29",
+            "COLOR": "#FF5752",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "failure",
+                "COLOR": "#FF5752"
+            }
+        },
+        {
+            "ID": "1523",
+            "ENTITY_ID": "DEAL_STAGE_29",
+            "STATUS_ID": "C29:APOLOGY",
+            "NAME": "Анализ причины провала",
+            "NAME_INIT": "",
+            "SORT": "80",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "29",
+            "COLOR": "#FF5752",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "apology",
+                "COLOR": "#FF5752"
+            }
+        }
+    ],
+    "DYNAMIC_161_STAGE_8": [
+        {
+            "ID": "1536",
+            "ENTITY_ID": "DYNAMIC_161_STAGE_8",
+            "STATUS_ID": "DT161_8:NEW",
+            "NAME": "Начало",
+            "NAME_INIT": "Начало",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "8",
+            "COLOR": "#22B9FF",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1537",
+            "ENTITY_ID": "DYNAMIC_161_STAGE_8",
+            "STATUS_ID": "DT161_8:PREPARATION",
+            "NAME": "Подготовка",
+            "NAME_INIT": "Подготовка",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "8",
+            "COLOR": "#88B9FF",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1538",
+            "ENTITY_ID": "DYNAMIC_161_STAGE_8",
+            "STATUS_ID": "DT161_8:CLIENT",
+            "NAME": "Согласование",
+            "NAME_INIT": "Согласование",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "8",
+            "COLOR": "#10e5fc",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1539",
+            "ENTITY_ID": "DYNAMIC_161_STAGE_8",
+            "STATUS_ID": "DT161_8:SUCCESS",
+            "NAME": "Успех",
+            "NAME_INIT": "Успех",
+            "SORT": "40",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "8",
+            "COLOR": "#00ff00",
+            "SEMANTICS": "S"
+        },
+        {
+            "ID": "1540",
+            "ENTITY_ID": "DYNAMIC_161_STAGE_8",
+            "STATUS_ID": "DT161_8:FAIL",
+            "NAME": "Провал",
+            "NAME_INIT": "Провал",
+            "SORT": "50",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "8",
+            "COLOR": "#ff0000",
+            "SEMANTICS": "F"
+        }
+    ],
+    "DYNAMIC_138_STAGE_9": [
+        {
+            "ID": "1541",
+            "ENTITY_ID": "DYNAMIC_138_STAGE_9",
+            "STATUS_ID": "DT138_9:NEW",
+            "NAME": "Начало",
+            "NAME_INIT": "Начало",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "9",
+            "COLOR": "#22B9FF",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1542",
+            "ENTITY_ID": "DYNAMIC_138_STAGE_9",
+            "STATUS_ID": "DT138_9:PREPARATION",
+            "NAME": "Подготовка",
+            "NAME_INIT": "Подготовка",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "9",
+            "COLOR": "#88B9FF",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1543",
+            "ENTITY_ID": "DYNAMIC_138_STAGE_9",
+            "STATUS_ID": "DT138_9:CLIENT",
+            "NAME": "Согласование",
+            "NAME_INIT": "Согласование",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "9",
+            "COLOR": "#10e5fc",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1544",
+            "ENTITY_ID": "DYNAMIC_138_STAGE_9",
+            "STATUS_ID": "DT138_9:SUCCESS",
+            "NAME": "Успех",
+            "NAME_INIT": "Успех",
+            "SORT": "40",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "9",
+            "COLOR": "#00ff00",
+            "SEMANTICS": "S"
+        },
+        {
+            "ID": "1545",
+            "ENTITY_ID": "DYNAMIC_138_STAGE_9",
+            "STATUS_ID": "DT138_9:FAIL",
+            "NAME": "Провал",
+            "NAME_INIT": "Провал",
+            "SORT": "50",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "9",
+            "COLOR": "#ff0000",
+            "SEMANTICS": "F"
+        }
+    ],
+    "DEAL_STAGE_30": [
+        {
+            "ID": "1546",
+            "ENTITY_ID": "DEAL_STAGE_30",
+            "STATUS_ID": "C30:NEW",
+            "NAME": "Ожидает",
+            "NAME_INIT": "Новая",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "30",
+            "COLOR": "#39a8ef",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#39a8ef"
+            }
+        },
+        {
+            "ID": "1547",
+            "ENTITY_ID": "DEAL_STAGE_30",
+            "STATUS_ID": "C30:PREPARATION",
+            "NAME": "2 недели",
+            "NAME_INIT": "",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "30",
+            "COLOR": "#2fc6f6",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#2fc6f6"
+            }
+        },
+        {
+            "ID": "1548",
+            "ENTITY_ID": "DEAL_STAGE_30",
+            "STATUS_ID": "C30:PREPAYMENT_INVOIC",
+            "NAME": "1 неделя",
+            "NAME_INIT": "",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "30",
+            "COLOR": "#55d0e0",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#55d0e0"
+            }
+        },
+        {
+            "ID": "1549",
+            "ENTITY_ID": "DEAL_STAGE_30",
+            "STATUS_ID": "C30:EXECUTING",
+            "NAME": "Счет отправлен",
+            "NAME_INIT": "",
+            "SORT": "40",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "30",
+            "COLOR": "#47e4c2",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#47e4c2"
+            }
+        },
+        {
+            "ID": "1550",
+            "ENTITY_ID": "DEAL_STAGE_30",
+            "STATUS_ID": "C30:FINAL_INVOICE",
+            "NAME": "Оплачен",
+            "NAME_INIT": "",
+            "SORT": "50",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "30",
+            "COLOR": "#ffa900",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#ffa900"
+            }
+        },
+        {
+            "ID": "1551",
+            "ENTITY_ID": "DEAL_STAGE_30",
+            "STATUS_ID": "C30:WON",
+            "NAME": "Сделка успешна",
+            "NAME_INIT": "Сделка успешна",
+            "SORT": "60",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "30",
+            "COLOR": "#7BD500",
+            "SEMANTICS": "S",
+            "EXTRA": {
+                "SEMANTICS": "success",
+                "COLOR": "#7BD500"
+            }
+        },
+        {
+            "ID": "1552",
+            "ENTITY_ID": "DEAL_STAGE_30",
+            "STATUS_ID": "C30:LOSE",
+            "NAME": "Сделка провалена",
+            "NAME_INIT": "Сделка провалена",
+            "SORT": "70",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "30",
+            "COLOR": "#FF5752",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "failure",
+                "COLOR": "#FF5752"
+            }
+        }
+    ],
+    "DYNAMIC_172_STAGE_10": [
+        {
+            "ID": "1556",
+            "ENTITY_ID": "DYNAMIC_172_STAGE_10",
+            "STATUS_ID": "DT172_10:NEW",
+            "NAME": "Новый документ",
+            "NAME_INIT": "Начало",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "10",
+            "COLOR": "#22B9FF",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1557",
+            "ENTITY_ID": "DYNAMIC_172_STAGE_10",
+            "STATUS_ID": "DT172_10:PREPARATION",
+            "NAME": "Ждет оплаты",
+            "NAME_INIT": "Подготовка",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "10",
+            "COLOR": "#88B9FF",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1559",
+            "ENTITY_ID": "DYNAMIC_172_STAGE_10",
+            "STATUS_ID": "DT172_10:SUCCESS",
+            "NAME": "Оплачен",
+            "NAME_INIT": "Успех",
+            "SORT": "30",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "10",
+            "COLOR": "#007236",
+            "SEMANTICS": "S"
+        },
+        {
+            "ID": "1560",
+            "ENTITY_ID": "DYNAMIC_172_STAGE_10",
+            "STATUS_ID": "DT172_10:FAIL",
+            "NAME": "Отменен",
+            "NAME_INIT": "Провал",
+            "SORT": "40",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "10",
+            "COLOR": "#ff0000",
+            "SEMANTICS": "F"
+        }
+    ],
+    "DYNAMIC_158_STAGE_11": [
+        {
+            "ID": "1561",
+            "ENTITY_ID": "DYNAMIC_158_STAGE_11",
+            "STATUS_ID": "DT158_11:NEW",
+            "NAME": "Начало",
+            "NAME_INIT": "Начало",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "11",
+            "COLOR": "#22B9FF",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1562",
+            "ENTITY_ID": "DYNAMIC_158_STAGE_11",
+            "STATUS_ID": "DT158_11:PREPARATION",
+            "NAME": "Подготовка",
+            "NAME_INIT": "Подготовка",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "11",
+            "COLOR": "#88B9FF",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1563",
+            "ENTITY_ID": "DYNAMIC_158_STAGE_11",
+            "STATUS_ID": "DT158_11:CLIENT",
+            "NAME": "Согласование",
+            "NAME_INIT": "Согласование",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "11",
+            "COLOR": "#10e5fc",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1564",
+            "ENTITY_ID": "DYNAMIC_158_STAGE_11",
+            "STATUS_ID": "DT158_11:SUCCESS",
+            "NAME": "Успех",
+            "NAME_INIT": "Успех",
+            "SORT": "40",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "11",
+            "COLOR": "#00ff00",
+            "SEMANTICS": "S"
+        },
+        {
+            "ID": "1565",
+            "ENTITY_ID": "DYNAMIC_158_STAGE_11",
+            "STATUS_ID": "DT158_11:FAIL",
+            "NAME": "Провал",
+            "NAME_INIT": "Провал",
+            "SORT": "50",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "11",
+            "COLOR": "#ff0000",
+            "SEMANTICS": "F"
+        }
+    ],
+    "DEAL_STAGE_31": [
+        {
+            "ID": "1566",
+            "ENTITY_ID": "DEAL_STAGE_31",
+            "STATUS_ID": "C31:NEW",
+            "NAME": "Новый проект",
+            "NAME_INIT": "Новая",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "31",
+            "COLOR": "#39a8ef",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#39a8ef"
+            }
+        },
+        {
+            "ID": "1567",
+            "ENTITY_ID": "DEAL_STAGE_31",
+            "STATUS_ID": "C31:PREPARATION",
+            "NAME": "Договор подписан",
+            "NAME_INIT": "",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "31",
+            "COLOR": "#2fc6f6",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#2fc6f6"
+            }
+        },
+        {
+            "ID": "1568",
+            "ENTITY_ID": "DEAL_STAGE_31",
+            "STATUS_ID": "C31:PREPAYMENT_INVOIC",
+            "NAME": "Р. компания подготовлена",
+            "NAME_INIT": "",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "31",
+            "COLOR": "#55d0e0",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#55d0e0"
+            }
+        },
+        {
+            "ID": "1569",
+            "ENTITY_ID": "DEAL_STAGE_31",
+            "STATUS_ID": "C31:EXECUTING",
+            "NAME": "Р. компания согласована",
+            "NAME_INIT": "",
+            "SORT": "40",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "31",
+            "COLOR": "#47e4c2",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#47e4c2"
+            }
+        },
+        {
+            "ID": "1570",
+            "ENTITY_ID": "DEAL_STAGE_31",
+            "STATUS_ID": "C31:FINAL_INVOICE",
+            "NAME": "Реклама запущена",
+            "NAME_INIT": "",
+            "SORT": "50",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "31",
+            "COLOR": "#ffa900",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#ffa900"
+            }
+        },
+        {
+            "ID": "1574",
+            "ENTITY_ID": "DEAL_STAGE_31",
+            "STATUS_ID": "C31:UC_99W2WD",
+            "NAME": "Акт отправлен",
+            "NAME_INIT": "",
+            "SORT": "51",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "31",
+            "COLOR": "#ace9fb",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#ace9fb"
+            }
+        },
+        {
+            "ID": "1571",
+            "ENTITY_ID": "DEAL_STAGE_31",
+            "STATUS_ID": "C31:WON",
+            "NAME": "Сделка успешна",
+            "NAME_INIT": "Сделка успешна",
+            "SORT": "60",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "31",
+            "COLOR": "#7BD500",
+            "SEMANTICS": "S",
+            "EXTRA": {
+                "SEMANTICS": "success",
+                "COLOR": "#7BD500"
+            }
+        },
+        {
+            "ID": "1572",
+            "ENTITY_ID": "DEAL_STAGE_31",
+            "STATUS_ID": "C31:LOSE",
+            "NAME": "Сделка провалена",
+            "NAME_INIT": "Сделка провалена",
+            "SORT": "70",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "31",
+            "COLOR": "#FF5752",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "failure",
+                "COLOR": "#FF5752"
+            }
+        }
+    ],
+    "DYNAMIC_175_STAGE_12": [
+        {
+            "ID": "1575",
+            "ENTITY_ID": "DYNAMIC_175_STAGE_12",
+            "STATUS_ID": "DT175_12:NEW",
+            "NAME": "Начало",
+            "NAME_INIT": "Начало",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "12",
+            "COLOR": "#22B9FF",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1576",
+            "ENTITY_ID": "DYNAMIC_175_STAGE_12",
+            "STATUS_ID": "DT175_12:PREPARATION",
+            "NAME": "Подготовка",
+            "NAME_INIT": "Подготовка",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "12",
+            "COLOR": "#88B9FF",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1577",
+            "ENTITY_ID": "DYNAMIC_175_STAGE_12",
+            "STATUS_ID": "DT175_12:CLIENT",
+            "NAME": "Согласование",
+            "NAME_INIT": "Согласование",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "12",
+            "COLOR": "#10e5fc",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1578",
+            "ENTITY_ID": "DYNAMIC_175_STAGE_12",
+            "STATUS_ID": "DT175_12:SUCCESS",
+            "NAME": "Успех",
+            "NAME_INIT": "Успех",
+            "SORT": "40",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "12",
+            "COLOR": "#00ff00",
+            "SEMANTICS": "S"
+        },
+        {
+            "ID": "1579",
+            "ENTITY_ID": "DYNAMIC_175_STAGE_12",
+            "STATUS_ID": "DT175_12:FAIL",
+            "NAME": "Провал",
+            "NAME_INIT": "Провал",
+            "SORT": "50",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "12",
+            "COLOR": "#ff0000",
+            "SEMANTICS": "F"
+        }
+    ],
+    "DYNAMIC_155_STAGE_13": [
+        {
+            "ID": "1580",
+            "ENTITY_ID": "DYNAMIC_155_STAGE_13",
+            "STATUS_ID": "DT155_13:NEW",
+            "NAME": "Начало",
+            "NAME_INIT": "Начало",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "13",
+            "COLOR": "#22B9FF",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1581",
+            "ENTITY_ID": "DYNAMIC_155_STAGE_13",
+            "STATUS_ID": "DT155_13:PREPARATION",
+            "NAME": "Подготовка",
+            "NAME_INIT": "Подготовка",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "13",
+            "COLOR": "#88B9FF",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1582",
+            "ENTITY_ID": "DYNAMIC_155_STAGE_13",
+            "STATUS_ID": "DT155_13:CLIENT",
+            "NAME": "Согласование",
+            "NAME_INIT": "Согласование",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "13",
+            "COLOR": "#10e5fc",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1583",
+            "ENTITY_ID": "DYNAMIC_155_STAGE_13",
+            "STATUS_ID": "DT155_13:SUCCESS",
+            "NAME": "Успех",
+            "NAME_INIT": "Успех",
+            "SORT": "40",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "13",
+            "COLOR": "#00ff00",
+            "SEMANTICS": "S"
+        },
+        {
+            "ID": "1584",
+            "ENTITY_ID": "DYNAMIC_155_STAGE_13",
+            "STATUS_ID": "DT155_13:FAIL",
+            "NAME": "Провал",
+            "NAME_INIT": "Провал",
+            "SORT": "50",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "13",
+            "COLOR": "#ff0000",
+            "SEMANTICS": "F"
+        }
+    ],
+    "DYNAMIC_187_STAGE_14": [
+        {
+            "ID": "1585",
+            "ENTITY_ID": "DYNAMIC_187_STAGE_14",
+            "STATUS_ID": "DT187_14:NEW",
+            "NAME": "Начало",
+            "NAME_INIT": "Начало",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "14",
+            "COLOR": "#22B9FF",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1586",
+            "ENTITY_ID": "DYNAMIC_187_STAGE_14",
+            "STATUS_ID": "DT187_14:PREPARATION",
+            "NAME": "Подготовка",
+            "NAME_INIT": "Подготовка",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "14",
+            "COLOR": "#88B9FF",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1587",
+            "ENTITY_ID": "DYNAMIC_187_STAGE_14",
+            "STATUS_ID": "DT187_14:CLIENT",
+            "NAME": "Согласование",
+            "NAME_INIT": "Согласование",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "14",
+            "COLOR": "#10e5fc",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1588",
+            "ENTITY_ID": "DYNAMIC_187_STAGE_14",
+            "STATUS_ID": "DT187_14:SUCCESS",
+            "NAME": "Успех",
+            "NAME_INIT": "Успех",
+            "SORT": "40",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "14",
+            "COLOR": "#00ff00",
+            "SEMANTICS": "S"
+        },
+        {
+            "ID": "1589",
+            "ENTITY_ID": "DYNAMIC_187_STAGE_14",
+            "STATUS_ID": "DT187_14:FAIL",
+            "NAME": "Провал",
+            "NAME_INIT": "Провал",
+            "SORT": "50",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "14",
+            "COLOR": "#ff0000",
+            "SEMANTICS": "F"
+        }
+    ],
+    "DYNAMIC_146_STAGE_15": [
+        {
+            "ID": "1590",
+            "ENTITY_ID": "DYNAMIC_146_STAGE_15",
+            "STATUS_ID": "DT146_15:NEW",
+            "NAME": "Начало",
+            "NAME_INIT": "Начало",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "15",
+            "COLOR": "#22B9FF",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1591",
+            "ENTITY_ID": "DYNAMIC_146_STAGE_15",
+            "STATUS_ID": "DT146_15:PREPARATION",
+            "NAME": "Подготовка",
+            "NAME_INIT": "Подготовка",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "15",
+            "COLOR": "#88B9FF",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1592",
+            "ENTITY_ID": "DYNAMIC_146_STAGE_15",
+            "STATUS_ID": "DT146_15:CLIENT",
+            "NAME": "Согласование",
+            "NAME_INIT": "Согласование",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "15",
+            "COLOR": "#10e5fc",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1593",
+            "ENTITY_ID": "DYNAMIC_146_STAGE_15",
+            "STATUS_ID": "DT146_15:SUCCESS",
+            "NAME": "Успех",
+            "NAME_INIT": "Успех",
+            "SORT": "40",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "15",
+            "COLOR": "#00ff00",
+            "SEMANTICS": "S"
+        },
+        {
+            "ID": "1594",
+            "ENTITY_ID": "DYNAMIC_146_STAGE_15",
+            "STATUS_ID": "DT146_15:FAIL",
+            "NAME": "Провал",
+            "NAME_INIT": "Провал",
+            "SORT": "50",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "15",
+            "COLOR": "#ff0000",
+            "SEMANTICS": "F"
+        }
+    ],
+    "DYNAMIC_177_STAGE_16": [
+        {
+            "ID": "1595",
+            "ENTITY_ID": "DYNAMIC_177_STAGE_16",
+            "STATUS_ID": "DT177_16:NEW",
+            "NAME": "Новый документ",
+            "NAME_INIT": "Начало",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "16",
+            "COLOR": "#22B9FF",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1596",
+            "ENTITY_ID": "DYNAMIC_177_STAGE_16",
+            "STATUS_ID": "DT177_16:PREPARATION",
+            "NAME": "Отправлен на согласование",
+            "NAME_INIT": "Подготовка",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "16",
+            "COLOR": "#88B9FF",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1597",
+            "ENTITY_ID": "DYNAMIC_177_STAGE_16",
+            "STATUS_ID": "DT177_16:CLIENT",
+            "NAME": "Возращено на доработку",
+            "NAME_INIT": "Согласование",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "16",
+            "COLOR": "#FFA801",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1612",
+            "ENTITY_ID": "DYNAMIC_177_STAGE_16",
+            "STATUS_ID": "DT177_16:UC_6YB2CY",
+            "NAME": "Согласовано",
+            "NAME_INIT": "",
+            "SORT": "40",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "16",
+            "COLOR": "#43DAD2",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1598",
+            "ENTITY_ID": "DYNAMIC_177_STAGE_16",
+            "STATUS_ID": "DT177_16:SUCCESS",
+            "NAME": "Оплачено",
+            "NAME_INIT": "Успех",
+            "SORT": "50",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "16",
+            "COLOR": "#007236",
+            "SEMANTICS": "S"
+        },
+        {
+            "ID": "1599",
+            "ENTITY_ID": "DYNAMIC_177_STAGE_16",
+            "STATUS_ID": "DT177_16:FAIL",
+            "NAME": "Отказано",
+            "NAME_INIT": "Провал",
+            "SORT": "60",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "16",
+            "COLOR": "#EE1D24",
+            "SEMANTICS": "F"
+        }
+    ],
+    "DEAL_STAGE_32": [
+        {
+            "ID": "1618",
+            "ENTITY_ID": "DEAL_STAGE_32",
+            "STATUS_ID": "C32:NEW",
+            "NAME": "На передаче",
+            "NAME_INIT": "Новая",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "32",
+            "COLOR": "#ffa801",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#ffa801"
+            }
+        },
+        {
+            "ID": "1626",
+            "ENTITY_ID": "DEAL_STAGE_32",
+            "STATUS_ID": "C32:UC_MXGUQR",
+            "NAME": "Передан",
+            "NAME_INIT": "",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "32",
+            "COLOR": "#00c4fb",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#00c4fb"
+            }
+        },
+        {
+            "ID": "1621",
+            "ENTITY_ID": "DEAL_STAGE_32",
+            "STATUS_ID": "C32:EXECUTING",
+            "NAME": "В работе у партнера",
+            "NAME_INIT": "",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "32",
+            "COLOR": "#47e4c2",
+            "SEMANTICS": null,
+            "EXTRA": {
+                "SEMANTICS": "process",
+                "COLOR": "#47e4c2"
+            }
+        },
+        {
+            "ID": "1623",
+            "ENTITY_ID": "DEAL_STAGE_32",
+            "STATUS_ID": "C32:WON",
+            "NAME": "Сделка успешна",
+            "NAME_INIT": "Сделка успешна",
+            "SORT": "40",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "32",
+            "COLOR": "#7BD500",
+            "SEMANTICS": "S",
+            "EXTRA": {
+                "SEMANTICS": "success",
+                "COLOR": "#7BD500"
+            }
+        },
+        {
+            "ID": "1624",
+            "ENTITY_ID": "DEAL_STAGE_32",
+            "STATUS_ID": "C32:LOSE",
+            "NAME": "Сделка провалена",
+            "NAME_INIT": "Сделка провалена",
+            "SORT": "50",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "32",
+            "COLOR": "#FF5752",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "failure",
+                "COLOR": "#FF5752"
+            }
+        },
+        {
+            "ID": "1625",
+            "ENTITY_ID": "DEAL_STAGE_32",
+            "STATUS_ID": "C32:APOLOGY",
+            "NAME": "Анализ причины провала",
+            "NAME_INIT": "",
+            "SORT": "60",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "32",
+            "COLOR": "#FF5752",
+            "SEMANTICS": "F",
+            "EXTRA": {
+                "SEMANTICS": "apology",
+                "COLOR": "#FF5752"
+            }
+        }
+    ],
+    "DYNAMIC_129_STAGE_19": [
+        {
+            "ID": "1630",
+            "ENTITY_ID": "DYNAMIC_129_STAGE_19",
+            "STATUS_ID": "DT129_19:NEW",
+            "NAME": "Начало",
+            "NAME_INIT": "Начало",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "19",
+            "COLOR": "#22B9FF",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1631",
+            "ENTITY_ID": "DYNAMIC_129_STAGE_19",
+            "STATUS_ID": "DT129_19:PREPARATION",
+            "NAME": "Подготовка",
+            "NAME_INIT": "Подготовка",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "19",
+            "COLOR": "#88B9FF",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1632",
+            "ENTITY_ID": "DYNAMIC_129_STAGE_19",
+            "STATUS_ID": "DT129_19:CLIENT",
+            "NAME": "Согласование",
+            "NAME_INIT": "Согласование",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "19",
+            "COLOR": "#10e5fc",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1633",
+            "ENTITY_ID": "DYNAMIC_129_STAGE_19",
+            "STATUS_ID": "DT129_19:SUCCESS",
+            "NAME": "Успех",
+            "NAME_INIT": "Успех",
+            "SORT": "40",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "19",
+            "COLOR": "#00ff00",
+            "SEMANTICS": "S"
+        },
+        {
+            "ID": "1634",
+            "ENTITY_ID": "DYNAMIC_129_STAGE_19",
+            "STATUS_ID": "DT129_19:FAIL",
+            "NAME": "Провал",
+            "NAME_INIT": "Провал",
+            "SORT": "50",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "19",
+            "COLOR": "#ff0000",
+            "SEMANTICS": "F"
+        }
+    ],
+    "DYNAMIC_171_STAGE_21": [
+        {
+            "ID": "1637",
+            "ENTITY_ID": "DYNAMIC_171_STAGE_21",
+            "STATUS_ID": "DT171_21:NEW",
+            "NAME": "Новый (тех. статус)",
+            "NAME_INIT": "Начало",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "21",
+            "COLOR": "#22b9ff",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1638",
+            "ENTITY_ID": "DYNAMIC_171_STAGE_21",
+            "STATUS_ID": "DT171_21:PREPARATION",
+            "NAME": "Просрочено",
+            "NAME_INIT": "Подготовка",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "21",
+            "COLOR": "#f11716",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1639",
+            "ENTITY_ID": "DYNAMIC_171_STAGE_21",
+            "STATUS_ID": "DT171_21:CLIENT",
+            "NAME": "Оплата сегодня",
+            "NAME_INIT": "Согласование",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "21",
+            "COLOR": "#007333",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1642",
+            "ENTITY_ID": "DYNAMIC_171_STAGE_21",
+            "STATUS_ID": "DT171_21:UC_FXXZ7A",
+            "NAME": "Оплата на этой неделе",
+            "NAME_INIT": "",
+            "SORT": "40",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "21",
+            "COLOR": "#00bef6",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1643",
+            "ENTITY_ID": "DYNAMIC_171_STAGE_21",
+            "STATUS_ID": "DT171_21:UC_WCPFG6",
+            "NAME": "Оплата более чем нед.",
+            "NAME_INIT": "",
+            "SORT": "50",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "21",
+            "COLOR": "#dbdde0",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1640",
+            "ENTITY_ID": "DYNAMIC_171_STAGE_21",
+            "STATUS_ID": "DT171_21:SUCCESS",
+            "NAME": "Успех",
+            "NAME_INIT": "Успех",
+            "SORT": "60",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "21",
+            "COLOR": "#00ff00",
+            "SEMANTICS": "S"
+        },
+        {
+            "ID": "1641",
+            "ENTITY_ID": "DYNAMIC_171_STAGE_21",
+            "STATUS_ID": "DT171_21:FAIL",
+            "NAME": "Провал",
+            "NAME_INIT": "Провал",
+            "SORT": "70",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "21",
+            "COLOR": "#ff0000",
+            "SEMANTICS": "F"
+        }
+    ],
+    "DYNAMIC_164_STAGE_22": [
+        {
+            "ID": "1645",
+            "ENTITY_ID": "DYNAMIC_164_STAGE_22",
+            "STATUS_ID": "DT164_22:NEW",
+            "NAME": "Новый документ",
+            "NAME_INIT": "Начало",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "22",
+            "COLOR": "#22b9ff",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1646",
+            "ENTITY_ID": "DYNAMIC_164_STAGE_22",
+            "STATUS_ID": "DT164_22:PREPARATION",
+            "NAME": "Дела временно переданы и ожидают возврата",
+            "NAME_INIT": "Подготовка",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "22",
+            "COLOR": "#fdb051",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1648",
+            "ENTITY_ID": "DYNAMIC_164_STAGE_22",
+            "STATUS_ID": "DT164_22:SUCCESS",
+            "NAME": "Все дела переданы",
+            "NAME_INIT": "Успех",
+            "SORT": "30",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "22",
+            "COLOR": "#045f20",
+            "SEMANTICS": "S"
+        },
+        {
+            "ID": "1649",
+            "ENTITY_ID": "DYNAMIC_164_STAGE_22",
+            "STATUS_ID": "DT164_22:FAIL",
+            "NAME": "Документ отменен",
+            "NAME_INIT": "Провал",
+            "SORT": "40",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "22",
+            "COLOR": "#ee1d24",
+            "SEMANTICS": "F"
+        }
+    ],
+    "DYNAMIC_162_STAGE_23": [
+        {
+            "ID": "1653",
+            "ENTITY_ID": "DYNAMIC_162_STAGE_23",
+            "STATUS_ID": "DT162_23:NEW",
+            "NAME": "Начало",
+            "NAME_INIT": "Начало",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "23",
+            "COLOR": "#22B9FF",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1654",
+            "ENTITY_ID": "DYNAMIC_162_STAGE_23",
+            "STATUS_ID": "DT162_23:PREPARATION",
+            "NAME": "Подготовка",
+            "NAME_INIT": "Подготовка",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "23",
+            "COLOR": "#88B9FF",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1655",
+            "ENTITY_ID": "DYNAMIC_162_STAGE_23",
+            "STATUS_ID": "DT162_23:CLIENT",
+            "NAME": "Согласование",
+            "NAME_INIT": "Согласование",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "23",
+            "COLOR": "#10e5fc",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1656",
+            "ENTITY_ID": "DYNAMIC_162_STAGE_23",
+            "STATUS_ID": "DT162_23:SUCCESS",
+            "NAME": "Успех",
+            "NAME_INIT": "Успех",
+            "SORT": "40",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "23",
+            "COLOR": "#00ff00",
+            "SEMANTICS": "S"
+        },
+        {
+            "ID": "1657",
+            "ENTITY_ID": "DYNAMIC_162_STAGE_23",
+            "STATUS_ID": "DT162_23:FAIL",
+            "NAME": "Провал",
+            "NAME_INIT": "Провал",
+            "SORT": "50",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "23",
+            "COLOR": "#ff0000",
+            "SEMANTICS": "F"
+        }
+    ],
+    "DYNAMIC_163_STAGE_24": [
+        {
+            "ID": "1660",
+            "ENTITY_ID": "DYNAMIC_163_STAGE_24",
+            "STATUS_ID": "DT163_24:NEW",
+            "NAME": "Начало",
+            "NAME_INIT": "Начало",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "24",
+            "COLOR": "#22B9FF",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1661",
+            "ENTITY_ID": "DYNAMIC_163_STAGE_24",
+            "STATUS_ID": "DT163_24:PREPARATION",
+            "NAME": "Подготовка",
+            "NAME_INIT": "Подготовка",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "24",
+            "COLOR": "#88B9FF",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1662",
+            "ENTITY_ID": "DYNAMIC_163_STAGE_24",
+            "STATUS_ID": "DT163_24:CLIENT",
+            "NAME": "Согласование",
+            "NAME_INIT": "Согласование",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "24",
+            "COLOR": "#10e5fc",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1663",
+            "ENTITY_ID": "DYNAMIC_163_STAGE_24",
+            "STATUS_ID": "DT163_24:SUCCESS",
+            "NAME": "Успех",
+            "NAME_INIT": "Успех",
+            "SORT": "40",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "24",
+            "COLOR": "#00ff00",
+            "SEMANTICS": "S"
+        },
+        {
+            "ID": "1664",
+            "ENTITY_ID": "DYNAMIC_163_STAGE_24",
+            "STATUS_ID": "DT163_24:FAIL",
+            "NAME": "Провал",
+            "NAME_INIT": "Провал",
+            "SORT": "50",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "24",
+            "COLOR": "#ff0000",
+            "SEMANTICS": "F"
+        }
+    ],
+    "DYNAMIC_168_STAGE_25": [
+        {
+            "ID": "1665",
+            "ENTITY_ID": "DYNAMIC_168_STAGE_25",
+            "STATUS_ID": "DT168_25:NEW",
+            "NAME": "Начало",
+            "NAME_INIT": "Начало",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "25",
+            "COLOR": "#22B9FF",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1666",
+            "ENTITY_ID": "DYNAMIC_168_STAGE_25",
+            "STATUS_ID": "DT168_25:PREPARATION",
+            "NAME": "Подготовка",
+            "NAME_INIT": "Подготовка",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "25",
+            "COLOR": "#88B9FF",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1667",
+            "ENTITY_ID": "DYNAMIC_168_STAGE_25",
+            "STATUS_ID": "DT168_25:CLIENT",
+            "NAME": "Согласование",
+            "NAME_INIT": "Согласование",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "25",
+            "COLOR": "#10e5fc",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1668",
+            "ENTITY_ID": "DYNAMIC_168_STAGE_25",
+            "STATUS_ID": "DT168_25:SUCCESS",
+            "NAME": "Успех",
+            "NAME_INIT": "Успех",
+            "SORT": "40",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "25",
+            "COLOR": "#00ff00",
+            "SEMANTICS": "S"
+        },
+        {
+            "ID": "1669",
+            "ENTITY_ID": "DYNAMIC_168_STAGE_25",
+            "STATUS_ID": "DT168_25:FAIL",
+            "NAME": "Провал",
+            "NAME_INIT": "Провал",
+            "SORT": "50",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "25",
+            "COLOR": "#ff0000",
+            "SEMANTICS": "F"
+        }
+    ],
+    "DYNAMIC_145_STAGE_26": [
+        {
+            "ID": "1673",
+            "ENTITY_ID": "DYNAMIC_145_STAGE_26",
+            "STATUS_ID": "DT145_26:NEW",
+            "NAME": "Начало",
+            "NAME_INIT": "Начало",
+            "SORT": "10",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "26",
+            "COLOR": "#22B9FF",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1674",
+            "ENTITY_ID": "DYNAMIC_145_STAGE_26",
+            "STATUS_ID": "DT145_26:PREPARATION",
+            "NAME": "Подготовка",
+            "NAME_INIT": "Подготовка",
+            "SORT": "20",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "26",
+            "COLOR": "#88B9FF",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1675",
+            "ENTITY_ID": "DYNAMIC_145_STAGE_26",
+            "STATUS_ID": "DT145_26:CLIENT",
+            "NAME": "Согласование",
+            "NAME_INIT": "Согласование",
+            "SORT": "30",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "26",
+            "COLOR": "#10e5fc",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "1676",
+            "ENTITY_ID": "DYNAMIC_145_STAGE_26",
+            "STATUS_ID": "DT145_26:SUCCESS",
+            "NAME": "Успех",
+            "NAME_INIT": "Успех",
+            "SORT": "40",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "26",
+            "COLOR": "#00ff00",
+            "SEMANTICS": "S"
+        },
+        {
+            "ID": "1677",
+            "ENTITY_ID": "DYNAMIC_145_STAGE_26",
+            "STATUS_ID": "DT145_26:FAIL",
+            "NAME": "Провал",
+            "NAME_INIT": "Провал",
+            "SORT": "50",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "26",
+            "COLOR": "#ff0000",
+            "SEMANTICS": "F"
+        }
+    ],
+    "INVOICE_STATUS": [
+        {
+            "ID": "855",
+            "ENTITY_ID": "INVOICE_STATUS",
+            "STATUS_ID": "N",
+            "NAME": "Новый",
+            "NAME_INIT": "Новый",
+            "SORT": "100",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "0",
+            "COLOR": "#39A8EF",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "857",
+            "ENTITY_ID": "INVOICE_STATUS",
+            "STATUS_ID": "S",
+            "NAME": "Отправлен клиенту",
+            "NAME_INIT": "",
+            "SORT": "110",
+            "SYSTEM": "N",
+            "CATEGORY_ID": "0",
+            "COLOR": "#2FC6F6",
+            "SEMANTICS": null
+        },
+        {
+            "ID": "859",
+            "ENTITY_ID": "INVOICE_STATUS",
+            "STATUS_ID": "P",
+            "NAME": "Оплачен",
+            "NAME_INIT": "Оплачен",
+            "SORT": "120",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "0",
+            "COLOR": "#7BD500",
+            "SEMANTICS": "S"
+        },
+        {
+            "ID": "861",
+            "ENTITY_ID": "INVOICE_STATUS",
+            "STATUS_ID": "D",
+            "NAME": "Не оплачен",
+            "NAME_INIT": "Не оплачен",
+            "SORT": "130",
+            "SYSTEM": "Y",
+            "CATEGORY_ID": "0",
+            "COLOR": "#FF5752",
+            "SEMANTICS": "F"
+        }
+    ]
+}

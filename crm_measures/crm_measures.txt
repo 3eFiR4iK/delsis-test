@@ -1,0 +1,20 @@
+[
+    {
+        "ID": "9",
+        "CODE": "10",
+        "MEASURE_TITLE": "Штука",
+        "SYMBOL_RUS": "шт.",
+        "SYMBOL_INTL": "pc. 1",
+        "SYMBOL_LETTER_INTL": "PCE. NMB",
+        "IS_DEFAULT": "N"
+    },
+    {
+        "ID": "11",
+        "CODE": "20",
+        "MEASURE_TITLE": "Час",
+        "SYMBOL_RUS": "ч.",
+        "SYMBOL_INTL": "",
+        "SYMBOL_LETTER_INTL": "",
+        "IS_DEFAULT": "Y"
+    }
+]
