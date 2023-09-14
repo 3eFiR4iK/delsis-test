@@ -360,7 +360,7 @@
         "SECOND_NAME": "",
         "TITLE": "",
         "TIME_ZONE": "",
-        "TIME_ZONE_OFFSET": "0",
+        "TIME_ZONE_OFFSET": "10800",
         "TIMESTAMP_X": {},
         "DATE_REGISTER": "2023-03-12T00:00:00+00:00",
         "PERSONAL_PROFESSION": "",
