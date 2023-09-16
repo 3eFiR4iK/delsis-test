@@ -11,7 +11,7 @@
         "DEC_POINT": ",",
         "THOUSANDS_SEP": "&nbsp;",
         "DECIMALS": "2",
-        "DATE_UPDATE": "2022-02-07T17:10:48+00:00",
+        "DATE_UPDATE": "2022-02-07T13:10:48+00:00",
         "localizations": {
             "br": {
                 "CURRENCY": "RUB",
@@ -312,7 +312,7 @@
         "DEC_POINT": ".",
         "THOUSANDS_SEP": null,
         "DECIMALS": "2",
-        "DATE_UPDATE": "2021-02-25T17:13:46+00:00",
+        "DATE_UPDATE": "2021-02-25T13:13:46+00:00",
         "localizations": {
             "br": {
                 "CURRENCY": "USD",
@@ -613,7 +613,7 @@
         "DEC_POINT": ".",
         "THOUSANDS_SEP": "&nbsp;",
         "DECIMALS": "2",
-        "DATE_UPDATE": "2021-02-25T17:13:46+00:00",
+        "DATE_UPDATE": "2021-02-25T13:13:46+00:00",
         "localizations": {
             "br": {
                 "CURRENCY": "EUR",
@@ -914,7 +914,7 @@
         "DEC_POINT": ".",
         "THOUSANDS_SEP": "&nbsp;",
         "DECIMALS": "2",
-        "DATE_UPDATE": "2021-02-25T17:13:46+00:00",
+        "DATE_UPDATE": "2021-02-25T13:13:46+00:00",
         "localizations": {
             "br": {
                 "CURRENCY": "UAH",
@@ -1215,7 +1215,7 @@
         "DEC_POINT": ".",
         "THOUSANDS_SEP": "&nbsp;",
         "DECIMALS": "2",
-        "DATE_UPDATE": "2021-02-25T17:13:46+00:00",
+        "DATE_UPDATE": "2021-02-25T13:13:46+00:00",
         "localizations": {
             "br": {
                 "CURRENCY": "BYN",
