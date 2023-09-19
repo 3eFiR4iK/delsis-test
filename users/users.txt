@@ -556,5 +556,33 @@
             140
         ],
         "USER_TYPE": "employee"
+    },
+    {
+        "ID": "2553",
+        "XML_ID": "",
+        "ACTIVE": true,
+        "NAME": "Паша ",
+        "LAST_NAME": "",
+        "SECOND_NAME": "",
+        "TITLE": "",
+        "TIME_ZONE": "",
+        "TIME_ZONE_OFFSET": "10800",
+        "DATE_REGISTER": "2023-09-18T00:00:00+00:00",
+        "PERSONAL_PROFESSION": "",
+        "PERSONAL_GENDER": "",
+        "PERSONAL_BIRTHDAY": "",
+        "PERSONAL_CITY": "",
+        "PERSONAL_STATE": "",
+        "PERSONAL_COUNTRY": "0",
+        "WORK_POSITION": "",
+        "WORK_CITY": "",
+        "WORK_STATE": "",
+        "WORK_COUNTRY": "0",
+        "LAST_ACTIVITY_DATE": {},
+        "UF_EMPLOYMENT_DATE": "",
+        "UF_DEPARTMENT": [
+            131
+        ],
+        "USER_TYPE": "employee"
     }
 ]
