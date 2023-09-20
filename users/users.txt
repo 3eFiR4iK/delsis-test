@@ -419,6 +419,7 @@
         "SECOND_NAME": "",
         "TITLE": "",
         "TIME_ZONE": "",
+        "TIME_ZONE_OFFSET": "10800",
         "TIMESTAMP_X": {},
         "DATE_REGISTER": "2023-04-11T00:00:00+00:00",
         "PERSONAL_PROFESSION": "",
@@ -431,6 +432,7 @@
         "WORK_CITY": "",
         "WORK_STATE": "",
         "WORK_COUNTRY": "0",
+        "LAST_ACTIVITY_DATE": {},
         "UF_EMPLOYMENT_DATE": "",
         "UF_DEPARTMENT": [
             140
